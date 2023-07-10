@@ -30,6 +30,11 @@ let package = Package(
             name: "LibraryTest1",
             dependencies: ["ClickmeliveiOSSDKWrapper"]),
         .target(
+            name: "ClickmeliveiOSSDKTarget",
+            dependencies: [.target(name: "ClickmeliveiOSSDKWrapper", condition: .when(platforms: [.iOS]))],
+            path: "ClickmeliveiOSSDKTarget"
+        ),
+        .target(
             name: "ClickmeliveiOSSDKWrapper",
             dependencies: [
                 .target(name: "ClickmeliveiOSSDK", condition: .when(platforms: [.iOS])),

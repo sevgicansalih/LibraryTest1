@@ -19,15 +19,6 @@
       }
     },
     {
-      "identity" : "pipkit",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/Kofktu/PIPKit.git",
-      "state" : {
-        "revision" : "3afcc572ed63eb495a138d49a41061404ce08ec3",
-        "version" : "1.0.7"
-      }
-    },
-    {
       "identity" : "starscream",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/daltoniam/Starscream.git",

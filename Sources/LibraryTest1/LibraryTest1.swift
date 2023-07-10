@@ -1,6 +1,6 @@
 import PIPKit
 import AmazonIVSPlayer
-import ClickmeliveiOSSDKWrapper
+import ClickmeliveiOSSDK
 
 public struct LibraryTest1 {
     public private(set) var text = "Hello, World!"

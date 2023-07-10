@@ -19,7 +19,7 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
         .package(url: "https://github.com/Kofktu/PIPKit.git", .upToNextMajor(from: "1.0.0")),
         .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.6.4")),
-        .package(url: "https://github.com/SDWebImage/SDWebImage.git", from: "5.1.0"),
+//        .package(url: "https://github.com/SDWebImage/SDWebImage.git", from: "5.1.0"),
         .package(url: "https://github.com/daltoniam/Starscream.git", from: "4.0.0"),
         .package(url: "https://github.com/airbnb/lottie-spm.git", from: "4.2.0")
     ],
@@ -34,7 +34,7 @@ let package = Package(
             dependencies: [
                 .target(name: "ClickmeliveiOSSDK", condition: .when(platforms: [.iOS])),
                 .product(name: "Alamofire", package: "Alamofire"),
-                .product(name: "SDWebImage", package: "SDWebImage"),
+//                .product(name: "SDWebImage", package: "SDWebImage"),
                 .product(name: "Starscream", package: "Starscream"),
                 .product(name: "Lottie", package: "lottie-spm"),
                 .product(name: "PIPKit", package: "PIPKit")

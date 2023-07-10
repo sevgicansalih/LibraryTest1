@@ -8,34 +8,6 @@
 		<data>
 		RyJRei6rUSHZcor5FSx8nVfa/xM=
 		</data>
-		<key>Frameworks/Pods_ClickmeliveiOSSDK.framework/Info.plist</key>
-		<data>
-		TjjJ4SG5drmHoH2fleXZ5pn5Wy4=
-		</data>
-		<key>Frameworks/Pods_ClickmeliveiOSSDK.framework/Pods_ClickmeliveiOSSDK</key>
-		<data>
-		5wNtvrkSIqaJ8n0SqqCPeC7BBz4=
-		</data>
-		<key>Frameworks/Pods_ClickmeliveiOSSDK.framework/_CodeSignature/CodeDirectory</key>
-		<data>
-		gKy88j090PAsnlN1S4Egp9PKisQ=
-		</data>
-		<key>Frameworks/Pods_ClickmeliveiOSSDK.framework/_CodeSignature/CodeRequirements</key>
-		<data>
-		OnX22wWFKRSOFN1+obRynMCeyXM=
-		</data>
-		<key>Frameworks/Pods_ClickmeliveiOSSDK.framework/_CodeSignature/CodeRequirements-1</key>
-		<data>
-		07JSulWKMDfRqM7RDJkQD4o8RhY=
-		</data>
-		<key>Frameworks/Pods_ClickmeliveiOSSDK.framework/_CodeSignature/CodeResources</key>
-		<data>
-		72D88ZY0uF0n9u6PpxkRRh3zJhU=
-		</data>
-		<key>Frameworks/Pods_ClickmeliveiOSSDK.framework/_CodeSignature/CodeSignature</key>
-		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
-		</data>
 		<key>Headers/ClickmeliveiOSSDK-Swift.h</key>
 		<data>
 		fhqUoiOuPfaXTor2EZ86u1Nra/c=
@@ -384,55 +356,6 @@
 			<key>hash2</key>
 			<data>
 			DKJMn8mSGA4UzhrDxLlh8wSsaWUCN617DcCw7GflTsM=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_ClickmeliveiOSSDK.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			LepBNbDNwtJWxkCWpRcpR2uM6SI0ByEuxuTiZAZj5Rc=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_ClickmeliveiOSSDK.framework/Pods_ClickmeliveiOSSDK</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			vs2ORe1bksvbSNMvYz8f7JyfVTkFkJccKEEmz380p0I=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_ClickmeliveiOSSDK.framework/_CodeSignature/CodeDirectory</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mBZGDxuSDtECEqWdzziDxiJeRQ7TtZKJANJJty1FoSk=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_ClickmeliveiOSSDK.framework/_CodeSignature/CodeRequirements</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_ClickmeliveiOSSDK.framework/_CodeSignature/CodeRequirements-1</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			d2GNzoOW1ne5vrTmNBClAcxSOyHsXEENwJFOfyMEnQk=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_ClickmeliveiOSSDK.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			J5RI6dGJ2cZ7xLQYHTiJTnTHiMSmOVuyD1Ym0Ge+cJY=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_ClickmeliveiOSSDK.framework/_CodeSignature/CodeSignature</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 			</data>
 		</dict>
 		<key>Headers/ClickmeliveiOSSDK-Swift.h</key>

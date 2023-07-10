@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
-// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ClickmeliveiOSSDK
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ClickmeliveiOSSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Alamofire
 import AmazonIVSPlayer
@@ -1063,17 +1063,17 @@ extension ClickmeliveiOSSDK.FeedViewController : UIKit.UICollectionViewDelegateF
 extension ClickmeliveiOSSDK.FeedViewController {
   @_Concurrency.MainActor(unsafe) final public func updateEventProducts(viewModels: [ClickmeliveiOSSDK.ProductViewModel])
 }
-extension ClickmeliveiOSSDK.FeedViewController : PIPUsable {
-  @_Concurrency.MainActor(unsafe) final public var initialState: PIPState {
+extension ClickmeliveiOSSDK.FeedViewController : PIPKit.PIPUsable {
+  @_Concurrency.MainActor(unsafe) final public var initialState: PIPKit.PIPState {
     get
   }
-  @_Concurrency.MainActor(unsafe) final public var initialPosition: PIPPosition {
+  @_Concurrency.MainActor(unsafe) final public var initialPosition: PIPKit.PIPPosition {
     get
   }
   @_Concurrency.MainActor(unsafe) final public var pipSize: CoreFoundation.CGSize {
     get
   }
-  @_Concurrency.MainActor(unsafe) final public var pipCorner: PIPCorner? {
+  @_Concurrency.MainActor(unsafe) final public var pipCorner: PIPKit.PIPCorner? {
     get
   }
   @_Concurrency.MainActor(unsafe) final public func onMinimizeTapped()

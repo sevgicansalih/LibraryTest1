@@ -61973,8 +61973,8 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "SDWebImage",
+        "printedName": "SDWebImage",
         "declKind": "Import",
         "moduleName": "ClickmeliveiOSSDK"
       },
@@ -72355,323 +72355,435 @@
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 3786,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 3791,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 3796,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3875,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3931,
+      "offset": 3519,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3940,
+      "offset": 3529,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3538,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3548,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3806,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3816,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3825,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3835,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3970,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3975,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3980,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4059,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4115,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4124,
       "length": 2,
       "value": "-8"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3952,
+      "offset": 4136,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3962,
+      "offset": 4146,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4094,
+      "offset": 4278,
       "length": 9,
       "value": "\"Sırala\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4457,
+      "offset": 4641,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5041,
+      "offset": 4997,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5050,
+      "offset": 5007,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5061,
+      "offset": 5016,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5071,
+      "offset": 5026,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5290,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5300,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5309,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5319,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5474,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5483,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5494,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5504,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6519,
+      "offset": 6952,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7041,
+      "offset": 7474,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7618,
+      "offset": 8051,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7781,
+      "offset": 8214,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7824,
+      "offset": 8257,
       "length": 10,
       "value": "\"Filtrele\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7909,
+      "offset": 8342,
       "length": 20,
       "value": "\"Filtrele(\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7927,
+      "offset": 8360,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8281,
+      "offset": 8714,
       "length": 17,
       "value": "\"EventFilterCell\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8377,
+      "offset": 8810,
       "length": 17,
       "value": "\"EventFilterCell\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9431,
+      "offset": 9864,
       "length": 2,
       "value": "82"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9614,
+      "offset": 10047,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9656,
+      "offset": 10089,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9701,
+      "offset": 10134,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9744,
+      "offset": 10177,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9788,
+      "offset": 10221,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9832,
+      "offset": 10265,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10213,
+      "offset": 10646,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10255,
+      "offset": 10688,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10304,
+      "offset": 10737,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10354,
+      "offset": 10787,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10394,
+      "offset": 10827,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10860,
+      "offset": 11293,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10942,
+      "offset": 11375,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11381,
+      "offset": 11814,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11663,
+      "offset": 12096,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11702,
+      "offset": 12135,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11739,
+      "offset": 12172,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11779,
+      "offset": 12212,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11870,
+      "offset": 12303,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11908,
+      "offset": 12341,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11946,
+      "offset": 12379,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11985,
+      "offset": 12418,
       "length": 5,
       "value": "false"
     },
@@ -72685,63 +72797,63 @@
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12470,
+      "offset": 12903,
       "length": 2,
       "value": "58"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13113,
+      "offset": 13546,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13165,
+      "offset": 13598,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13224,
+      "offset": 13657,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13279,
+      "offset": 13712,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13320,
+      "offset": 13753,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13414,
+      "offset": 13847,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13493,
+      "offset": 13926,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 14025,
+      "offset": 14458,
       "length": 5,
       "value": "false"
     },

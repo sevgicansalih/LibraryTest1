@@ -10,6 +10,7 @@ import CoreMedia
 import Foundation
 import Lottie
 import PIPKit
+import SDWebImage
 import Starscream
 import Swift
 import UIKit

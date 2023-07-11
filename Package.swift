@@ -19,7 +19,7 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
 //        .package(url: "https://github.com/Kofktu/PIPKit.git", .upToNextMajor(from: "1.0.0")),
         .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.6.4")),
-//        .package(url: "https://github.com/SDWebImage/SDWebImage.git", from: "5.1.0"),
+//        .package(url: "https://github.com/SDWebImage/SDWebImage.git", exact: "5.15.2"),
         .package(url: "https://github.com/daltoniam/Starscream.git", from: "4.0.0"),
         .package(url: "https://github.com/airbnb/lottie-spm.git", from: "4.2.0")
     ],
@@ -44,7 +44,8 @@ let package = Package(
                 .product(name: "Lottie", package: "lottie-spm"),
 //                .product(name: "PIPKit", package: "PIPKit"),
                 .target(name: "AmazonIVSPlayer", condition: .when(platforms: [.iOS])),
-                .target(name: "PIPKit", condition: .when(platforms: [.iOS]))
+                .target(name: "PIPKit", condition: .when(platforms: [.iOS])),
+                .target(name: "SDWebImage", condition: .when(platforms: [.iOS]))
             ],
             path: "ClickmeliveiOSSDKWrapper"
         ),
@@ -53,6 +54,8 @@ let package = Package(
             dependencies: ["LibraryTest1"]),
         .binaryTarget(name: "AmazonIVSPlayer", path: "AmazonIVSPlayer.xcframework"),
         .binaryTarget(name: "ClickmeliveiOSSDK", path: "ClickmeliveiOSSDK.xcframework"),
-        .binaryTarget(name: "PIPKit", path: "PIPKit.xcframework")
+        .binaryTarget(name: "PIPKit", path: "PIPKit.xcframework"),
+        .binaryTarget(name: "SDWebImage", path: "SDWebImage.xcframework")
+        
     ]
 )

@@ -497,6 +497,7 @@ extension ClickmeliveiOSSDK.EventFilterViewController : UIKit.UITableViewDelegat
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class EventProductCell : ClickmeliveiOSSDK.ProductCell {
   public enum Constants {
   }
+  @_Concurrency.MainActor(unsafe) final public var onAddToBasket: (() -> Swift.Void)?
   @_Concurrency.MainActor(unsafe) final public let lblIndex: UIKit.UILabel
   @_Concurrency.MainActor(unsafe) override final public func setupViews()
   @_Concurrency.MainActor(unsafe) override final public func setupLayout()
@@ -1762,6 +1763,7 @@ public struct ChatConnectionParameters {
   case streamEnded
   case shareTapped(eventId: Swift.Int)
   case merchantTapped(sellerId: Swift.Int?)
+  case onBasketTapped
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class FeedCell : UIKit.UICollectionViewCell {
   @objc deinit

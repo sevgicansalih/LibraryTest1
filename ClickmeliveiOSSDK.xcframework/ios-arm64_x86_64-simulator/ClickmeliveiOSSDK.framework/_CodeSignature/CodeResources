@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/ClickmeliveiOSSDK-Swift.h</key>
 		<data>
-		fhqUoiOuPfaXTor2EZ86u1Nra/c=
+		d6K67ZR3hulg/8X5y8YRmx++NMc=
 		</data>
 		<key>Headers/ClickmeliveiOSSDK.h</key>
 		<data>
@@ -102,11 +102,11 @@
 		</data>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		W8J+kmmOReFJIYHvfEzVAi70E+A=
+		sbhmJV8P8ucj3dKVmMmr26r/MlE=
 		</data>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		5P0q+WI+/tPh1GRux6D1qPOXwig=
+		o9Lc45daJg85+x88p0V8mX8rUlY=
 		</data>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -114,19 +114,19 @@
 		</data>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		5P0q+WI+/tPh1GRux6D1qPOXwig=
+		o9Lc45daJg85+x88p0V8mX8rUlY=
 		</data>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SDwNJeUrssWV6apKqr4fsAVsWDo=
+		U/5jbIgGtCKZJheC1B+ZpqVG2p8=
 		</data>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		W8J+kmmOReFJIYHvfEzVAi70E+A=
+		sbhmJV8P8ucj3dKVmMmr26r/MlE=
 		</data>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		z0jo7SVcTqCxg0MDlqEKmtEiWII=
+		uR5NVUU3cYlLXXBEwRC2WfT5LrY=
 		</data>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -134,11 +134,11 @@
 		</data>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		z0jo7SVcTqCxg0MDlqEKmtEiWII=
+		uR5NVUU3cYlLXXBEwRC2WfT5LrY=
 		</data>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LzzMYye6BRuAJggzq1o9rEyulv4=
+		OoKGSFHLTQtBq5NiEr59pAzRwGw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -362,7 +362,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tF1mL6nSkjWwxFvjkjDKAdX46ZRs938Xgfbe+0SH34A=
+			zFmOBTWdArJdqN5oInic6zlip8D/XR5gU97lafNa1o0=
 			</data>
 		</dict>
 		<key>Headers/ClickmeliveiOSSDK.h</key>
@@ -516,14 +516,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YrJ2XftWAJXJYWWynS/OOsT9dolBVjj0XiMIz+wTprs=
+			t1oHk9B1me8KLDE9jpt8rc+SwW5ewIfGw/bgbwGoi6o=
 			</data>
 		</dict>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+wM4EX0zmcnSyJivkcp77ymhZI+GYwgVXwz3tCAD4/k=
+			AcRoQzIjrWG20DKF69RqbLFEG8fMT6bkC8b7U9okd98=
 			</data>
 		</dict>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -537,28 +537,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+wM4EX0zmcnSyJivkcp77ymhZI+GYwgVXwz3tCAD4/k=
+			AcRoQzIjrWG20DKF69RqbLFEG8fMT6bkC8b7U9okd98=
 			</data>
 		</dict>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gAtwt6sWmBFsEd6kEe2bmUXKykzZCVZQDpVZ+sFHVa4=
+			iVYA/Dv7qA2quBR7ZCPc6VVBDIFvnpTmBLw/NCtDVEk=
 			</data>
 		</dict>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YrJ2XftWAJXJYWWynS/OOsT9dolBVjj0XiMIz+wTprs=
+			t1oHk9B1me8KLDE9jpt8rc+SwW5ewIfGw/bgbwGoi6o=
 			</data>
 		</dict>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			detM1JofkF22V/vzcb0U5pL5gJqZQYEzuRszlWgV3dM=
+			7iElT1GU+dqd3fzkHb8juolLni4BIO6DmFCFo96B6OA=
 			</data>
 		</dict>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -572,14 +572,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			detM1JofkF22V/vzcb0U5pL5gJqZQYEzuRszlWgV3dM=
+			7iElT1GU+dqd3fzkHb8juolLni4BIO6DmFCFo96B6OA=
 			</data>
 		</dict>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yPIELdO2RUqFgiWZnZQL9X4zwu2/B7aKIoYTCO7EG6g=
+			JH6Yw7CkRCKVRW3Yoxb/V9AA+Esg9l3U1EFATTCb4Rk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

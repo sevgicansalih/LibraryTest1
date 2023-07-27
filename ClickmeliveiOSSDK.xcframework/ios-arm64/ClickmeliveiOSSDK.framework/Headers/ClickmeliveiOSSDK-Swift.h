@@ -955,6 +955,7 @@ SWIFT_CLASS("_TtC17ClickmeliveiOSSDK9StockView")
 
 
 
+
 SWIFT_CLASS("_TtC17ClickmeliveiOSSDK15ViewerCountView")
 @interface ViewerCountView : UIView
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;

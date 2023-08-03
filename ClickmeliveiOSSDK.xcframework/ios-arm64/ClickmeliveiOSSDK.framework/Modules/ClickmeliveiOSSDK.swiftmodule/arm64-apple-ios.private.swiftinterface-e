@@ -756,6 +756,7 @@ extension ClickmeliveiOSSDK.Localized {
   @_Concurrency.MainActor(unsafe) @objc override final public func loadView()
 }
 public protocol ImageLoader {
+  func loadImage(to imageView: UIKit.UIImageView, with url: Foundation.URL?, placeholder placeholderImage: Swift.String?)
   func loadImage(to imageView: UIKit.UIImageView, with url: Foundation.URL?)
 }
 final public class FeedViewModel {

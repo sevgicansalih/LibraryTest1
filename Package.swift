@@ -1,4 +1,4 @@
-// swift-tools-version: 5.8
+// swift-tools-version: 5.4
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -21,7 +21,7 @@ let package = Package(
         .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.6.4")),
 //        .package(url: "https://github.com/SDWebImage/SDWebImage.git", exact: "5.15.2"),
         .package(url: "https://github.com/daltoniam/Starscream.git", from: "4.0.0"),
-        .package(url: "https://github.com/airbnb/lottie-spm.git", from: "4.2.0")
+        .package(url: "https://github.com/airbnb/lottie-spm.git", Version("4.2.0")...Version("4.2.0")),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.

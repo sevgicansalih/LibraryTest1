@@ -12290,8 +12290,8 @@
               },
               {
                 "kind": "Var",
-                "name": "mpTest",
-                "printedName": "mpTest",
+                "name": "staging",
+                "printedName": "staging",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -12321,8 +12321,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:17ClickmeliveiOSSDK14AppEnvironmentV0D0O6mpTestyA2EmF",
-                "mangledName": "$s17ClickmeliveiOSSDK14AppEnvironmentV0D0O6mpTestyA2EmF",
+                "usr": "s:17ClickmeliveiOSSDK14AppEnvironmentV0D0O7stagingyA2EmF",
+                "mangledName": "$s17ClickmeliveiOSSDK14AppEnvironmentV0D0O7stagingyA2EmF",
                 "moduleName": "ClickmeliveiOSSDK"
               },
               {
@@ -12632,8 +12632,8 @@
           },
           {
             "kind": "Var",
-            "name": "mpTest",
-            "printedName": "mpTest",
+            "name": "staging",
+            "printedName": "staging",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -12643,8 +12643,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:17ClickmeliveiOSSDK7ServersV6mpTestSSvp",
-            "mangledName": "$s17ClickmeliveiOSSDK7ServersV6mpTestSSvp",
+            "usr": "s:17ClickmeliveiOSSDK7ServersV7stagingSSvp",
+            "mangledName": "$s17ClickmeliveiOSSDK7ServersV7stagingSSvp",
             "moduleName": "ClickmeliveiOSSDK",
             "declAttributes": [
               "HasStorage",
@@ -12665,8 +12665,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17ClickmeliveiOSSDK7ServersV6mpTestSSvg",
-                "mangledName": "$s17ClickmeliveiOSSDK7ServersV6mpTestSSvg",
+                "usr": "s:17ClickmeliveiOSSDK7ServersV7stagingSSvg",
+                "mangledName": "$s17ClickmeliveiOSSDK7ServersV7stagingSSvg",
                 "moduleName": "ClickmeliveiOSSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -12689,8 +12689,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17ClickmeliveiOSSDK7ServersV6mpTestSSvs",
-                "mangledName": "$s17ClickmeliveiOSSDK7ServersV6mpTestSSvs",
+                "usr": "s:17ClickmeliveiOSSDK7ServersV7stagingSSvs",
+                "mangledName": "$s17ClickmeliveiOSSDK7ServersV7stagingSSvs",
                 "moduleName": "ClickmeliveiOSSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -12707,8 +12707,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17ClickmeliveiOSSDK7ServersV6mpTestSSvM",
-                "mangledName": "$s17ClickmeliveiOSSDK7ServersV6mpTestSSvM",
+                "usr": "s:17ClickmeliveiOSSDK7ServersV7stagingSSvM",
+                "mangledName": "$s17ClickmeliveiOSSDK7ServersV7stagingSSvM",
                 "moduleName": "ClickmeliveiOSSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -12887,6 +12887,91 @@
           },
           {
             "kind": "Var",
+            "name": "eventStatsStaging",
+            "printedName": "eventStatsStaging",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ClickmeliveiOSSDK7ServersV17eventStatsStagingSSvp",
+            "mangledName": "$s17ClickmeliveiOSSDK7ServersV17eventStatsStagingSSvp",
+            "moduleName": "ClickmeliveiOSSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ClickmeliveiOSSDK7ServersV17eventStatsStagingSSvg",
+                "mangledName": "$s17ClickmeliveiOSSDK7ServersV17eventStatsStagingSSvg",
+                "moduleName": "ClickmeliveiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ClickmeliveiOSSDK7ServersV17eventStatsStagingSSvs",
+                "mangledName": "$s17ClickmeliveiOSSDK7ServersV17eventStatsStagingSSvs",
+                "moduleName": "ClickmeliveiOSSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ClickmeliveiOSSDK7ServersV17eventStatsStagingSSvM",
+                "mangledName": "$s17ClickmeliveiOSSDK7ServersV17eventStatsStagingSSvM",
+                "moduleName": "ClickmeliveiOSSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "chatProduction",
             "printedName": "chatProduction",
             "children": [
@@ -13057,8 +13142,8 @@
           },
           {
             "kind": "Var",
-            "name": "analyticsProduction",
-            "printedName": "analyticsProduction",
+            "name": "chatStaging",
+            "printedName": "chatStaging",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -13068,8 +13153,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:17ClickmeliveiOSSDK7ServersV19analyticsProductionSSvp",
-            "mangledName": "$s17ClickmeliveiOSSDK7ServersV19analyticsProductionSSvp",
+            "usr": "s:17ClickmeliveiOSSDK7ServersV11chatStagingSSvp",
+            "mangledName": "$s17ClickmeliveiOSSDK7ServersV11chatStagingSSvp",
             "moduleName": "ClickmeliveiOSSDK",
             "declAttributes": [
               "HasStorage",
@@ -13090,8 +13175,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17ClickmeliveiOSSDK7ServersV19analyticsProductionSSvg",
-                "mangledName": "$s17ClickmeliveiOSSDK7ServersV19analyticsProductionSSvg",
+                "usr": "s:17ClickmeliveiOSSDK7ServersV11chatStagingSSvg",
+                "mangledName": "$s17ClickmeliveiOSSDK7ServersV11chatStagingSSvg",
                 "moduleName": "ClickmeliveiOSSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -13114,8 +13199,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17ClickmeliveiOSSDK7ServersV19analyticsProductionSSvs",
-                "mangledName": "$s17ClickmeliveiOSSDK7ServersV19analyticsProductionSSvs",
+                "usr": "s:17ClickmeliveiOSSDK7ServersV11chatStagingSSvs",
+                "mangledName": "$s17ClickmeliveiOSSDK7ServersV11chatStagingSSvs",
                 "moduleName": "ClickmeliveiOSSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -13132,93 +13217,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17ClickmeliveiOSSDK7ServersV19analyticsProductionSSvM",
-                "mangledName": "$s17ClickmeliveiOSSDK7ServersV19analyticsProductionSSvM",
-                "moduleName": "ClickmeliveiOSSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "analyticsTest",
-            "printedName": "analyticsTest",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:17ClickmeliveiOSSDK7ServersV13analyticsTestSSvp",
-            "mangledName": "$s17ClickmeliveiOSSDK7ServersV13analyticsTestSSvp",
-            "moduleName": "ClickmeliveiOSSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ClickmeliveiOSSDK7ServersV13analyticsTestSSvg",
-                "mangledName": "$s17ClickmeliveiOSSDK7ServersV13analyticsTestSSvg",
-                "moduleName": "ClickmeliveiOSSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ClickmeliveiOSSDK7ServersV13analyticsTestSSvs",
-                "mangledName": "$s17ClickmeliveiOSSDK7ServersV13analyticsTestSSvs",
-                "moduleName": "ClickmeliveiOSSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17ClickmeliveiOSSDK7ServersV13analyticsTestSSvM",
-                "mangledName": "$s17ClickmeliveiOSSDK7ServersV13analyticsTestSSvM",
+                "usr": "s:17ClickmeliveiOSSDK7ServersV11chatStagingSSvM",
+                "mangledName": "$s17ClickmeliveiOSSDK7ServersV11chatStagingSSvM",
                 "moduleName": "ClickmeliveiOSSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -13228,7 +13228,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(production:development:mpTest:eventStatsProduction:eventStatsDevelopment:chatProduction:chatDevelopment:analyticsProduction:analyticsTest:)",
+            "printedName": "init(production:development:staging:eventStatsProduction:eventStatsDevelopment:eventStatsStaging:chatProduction:chatDevelopment:chatStaging:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -13292,8 +13292,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:17ClickmeliveiOSSDK7ServersV10production11development6mpTest20eventStatsProduction0hI11Development04chatJ00lK009analyticsJ00mG0ACSS_S8Stcfc",
-            "mangledName": "$s17ClickmeliveiOSSDK7ServersV10production11development6mpTest20eventStatsProduction0hI11Development04chatJ00lK009analyticsJ00mG0ACSS_S8Stcfc",
+            "usr": "s:17ClickmeliveiOSSDK7ServersV10production11development7staging20eventStatsProduction0gH11Development0gH7Staging04chatI00lJ00lK0ACSS_S8Stcfc",
+            "mangledName": "$s17ClickmeliveiOSSDK7ServersV10production11development7staging20eventStatsProduction0gH11Development0gH7Staging04chatI00lJ00lK0ACSS_S8Stcfc",
             "moduleName": "ClickmeliveiOSSDK",
             "declAttributes": [
               "AccessControl"
@@ -72857,84 +72857,84 @@
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/AppEnvironment.swift",
       "kind": "StringLiteral",
-      "offset": 253,
+      "offset": 254,
+      "length": 46,
+      "value": "\"https:\/\/pazarama-sdk-gateway.clickmelive.com\""
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/AppEnvironment.swift",
+      "kind": "StringLiteral",
+      "offset": 323,
+      "length": 50,
+      "value": "\"https:\/\/dev-pazarama-sdk-gateway.clickmelive.com\""
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/AppEnvironment.swift",
+      "kind": "StringLiteral",
+      "offset": 392,
       "length": 51,
       "value": "\"https:\/\/test-pazarama-sdk-gateway.clickmelive.com\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/AppEnvironment.swift",
       "kind": "StringLiteral",
-      "offset": 327,
-      "length": 51,
-      "value": "\"https:\/\/test-pazarama-sdk-gateway.clickmelive.com\""
+      "offset": 475,
+      "length": 47,
+      "value": "\"wss:\/\/pazarama-eventstats-api.clickmelive.com\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/AppEnvironment.swift",
       "kind": "StringLiteral",
-      "offset": 396,
-      "length": 45,
-      "value": "\"https:\/\/mp-azure-mobile-api.clickmelive.com\""
+      "offset": 556,
+      "length": 42,
+      "value": "\"wss:\/\/dev-eventstats-api.clickmelive.com\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/AppEnvironment.swift",
       "kind": "StringLiteral",
-      "offset": 473,
+      "offset": 628,
       "length": 43,
-      "value": "\"wss:\/\/eventstats-test-api.clickmelive.com\""
+      "value": "\"wss:\/\/test-eventstats-api.clickmelive.com\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/AppEnvironment.swift",
       "kind": "StringLiteral",
-      "offset": 550,
+      "offset": 697,
       "length": 43,
-      "value": "\"wss:\/\/eventstats-test-api.clickmelive.com\""
+      "value": "\"https:\/\/pazarama-chat-api.clickmelive.com\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/AppEnvironment.swift",
       "kind": "StringLiteral",
-      "offset": 619,
-      "length": 37,
-      "value": "\"wss:\/\/chat-test-api.clickmelive.com\""
+      "offset": 767,
+      "length": 38,
+      "value": "\"https:\/\/dev-chat-api.clickmelive.com\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/AppEnvironment.swift",
       "kind": "StringLiteral",
-      "offset": 683,
-      "length": 37,
-      "value": "\"wss:\/\/chat-test-api.clickmelive.com\""
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/AppEnvironment.swift",
-      "kind": "StringLiteral",
-      "offset": 751,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/AppEnvironment.swift",
-      "kind": "StringLiteral",
-      "offset": 778,
-      "length": 2,
-      "value": "\"\""
+      "offset": 828,
+      "length": 39,
+      "value": "\"https:\/\/test-chat-api.clickmelive.com\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/AppEnvironment.swift",
       "kind": "BooleanLiteral",
-      "offset": 1182,
+      "offset": 1276,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/AppEnvironment.swift",
       "kind": "BooleanLiteral",
-      "offset": 1233,
+      "offset": 1327,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/AppEnvironment.swift",
       "kind": "BooleanLiteral",
-      "offset": 1280,
+      "offset": 1375,
       "length": 5,
       "value": "false"
     },

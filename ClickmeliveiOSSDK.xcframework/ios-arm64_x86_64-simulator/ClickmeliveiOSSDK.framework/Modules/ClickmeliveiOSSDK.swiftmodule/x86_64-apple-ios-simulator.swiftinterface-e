@@ -417,7 +417,7 @@ public struct AppEnvironment {
   public enum Environment {
     case production
     case development
-    case mpTest
+    case staging
     public static func == (a: ClickmeliveiOSSDK.AppEnvironment.Environment, b: ClickmeliveiOSSDK.AppEnvironment.Environment) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
@@ -428,14 +428,14 @@ public struct AppEnvironment {
 public struct Servers {
   public var production: Swift.String
   public var development: Swift.String
-  public var mpTest: Swift.String
+  public var staging: Swift.String
   public var eventStatsProduction: Swift.String
   public var eventStatsDevelopment: Swift.String
+  public var eventStatsStaging: Swift.String
   public var chatProduction: Swift.String
   public var chatDevelopment: Swift.String
-  public var analyticsProduction: Swift.String
-  public var analyticsTest: Swift.String
-  public init(production: Swift.String, development: Swift.String, mpTest: Swift.String, eventStatsProduction: Swift.String, eventStatsDevelopment: Swift.String, chatProduction: Swift.String, chatDevelopment: Swift.String, analyticsProduction: Swift.String, analyticsTest: Swift.String)
+  public var chatStaging: Swift.String
+  public init(production: Swift.String, development: Swift.String, staging: Swift.String, eventStatsProduction: Swift.String, eventStatsDevelopment: Swift.String, eventStatsStaging: Swift.String, chatProduction: Swift.String, chatDevelopment: Swift.String, chatStaging: Swift.String)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class EventProductHiddenDetailCell : ClickmeliveiOSSDK.ProductCell {
   @_Concurrency.MainActor(unsafe) final public var onAddToBasketTapped: (() -> Swift.Void)?

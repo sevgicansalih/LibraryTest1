@@ -84,9 +84,22 @@ extension ClickmeliveiOSSDK.HorizontalProductCell : UIKit.UICollectionViewDataSo
 public struct CMLUser {
   public init(userName: Swift.String, userId: Swift.String)
 }
+public struct DeepLinkParams {
+  public init(eventId: Swift.Int, eventType: Swift.Int)
+}
+public protocol SDKFunctions {
+  func exitSDK()
+}
+public protocol SDKPIPFunctions {
+  func enterPIPMode()
+}
 @_hasMissingDesignatedInitializers public class CML {
   public static func configure(environment: ClickmeliveiOSSDK.AppEnvironment.Environment, apiKey: Swift.String, apiSecret: Swift.String, user: ClickmeliveiOSSDK.CMLUser, onProductClick: @escaping (_ productId: Swift.String?, _ sellerId: Swift.String?) -> Swift.Void, onProductAddedToBasket: @escaping (_ productId: Swift.String?, _ sellerId: Swift.String?) -> Swift.Void, onBasketClick: @escaping () -> Swift.Void, onExitButtonClick: @escaping () -> Swift.Void, onLinkGenerationClick: @escaping (_ eventId: Swift.Int) -> Swift.Void, onMerchantClick: @escaping (_ sellerId: Swift.String?) -> Swift.Void)
-  public static func makeCMLNavigationController() -> ClickmeliveiOSSDK.CMLNavigationController
+  public static func start(hostController: UIKit.UIViewController)
+  public static func exit()
+  public static func handleOnExitButtonClicked()
+  public static func enterPipMode()
+  public static func onDeepLinkEvent(hostController: UIKit.UIViewController, eventId: Swift.Int, eventType: Swift.Int)
   public static func makeHomePageViewController() -> UIKit.UIViewController
   public static func makeFeedViewController(events: [ClickmeliveiOSSDK.Event], selectedIndexPath: Foundation.IndexPath, rootNavigationController: UIKit.UINavigationController?, disablePip: Swift.Bool = false) -> ClickmeliveiOSSDK.FeedViewController
   public static func makeLiveViewController(type: ClickmeliveiOSSDK.StreamTypes) -> ClickmeliveiOSSDK.LiveViewController
@@ -547,6 +560,9 @@ final public class AuthTokenLoader {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @objc deinit
+}
+extension ClickmeliveiOSSDK.CMLNavigationController : ClickmeliveiOSSDK.SDKFunctions {
+  @_Concurrency.MainActor(unsafe) public func exitSDK()
 }
 @_inheritsConvenienceInitializers final public class RemoteEventDetailLoader : ClickmeliveiOSSDK.RemoteClient<ClickmeliveiOSSDK.Event>, ClickmeliveiOSSDK.EventDetailLoader {
   final public func load(eventId: Swift.Int, completionCallback: @escaping (ClickmeliveiOSSDK.Event?, (any Swift.Error)?) -> Swift.Void)
@@ -1090,6 +1106,9 @@ extension ClickmeliveiOSSDK.FeedViewController : UIKit.UITextViewDelegate {
   @_Concurrency.MainActor(unsafe) final public func displayComposeMessageTextView()
   @_Concurrency.MainActor(unsafe) @objc final public func textViewDidBeginEditing(_ textView: UIKit.UITextView)
   @_Concurrency.MainActor(unsafe) @objc final public func textView(_ textView: UIKit.UITextView, shouldChangeTextIn range: Foundation.NSRange, replacementText text: Swift.String) -> Swift.Bool
+}
+extension ClickmeliveiOSSDK.FeedViewController : ClickmeliveiOSSDK.SDKPIPFunctions {
+  @_Concurrency.MainActor(unsafe) final public func enterPIPMode()
 }
 extension ClickmeliveiOSSDK.ChatView {
   @_Concurrency.MainActor(unsafe) final public func display(_ sections: [ClickmeliveiOSSDK.TableCellController]...)

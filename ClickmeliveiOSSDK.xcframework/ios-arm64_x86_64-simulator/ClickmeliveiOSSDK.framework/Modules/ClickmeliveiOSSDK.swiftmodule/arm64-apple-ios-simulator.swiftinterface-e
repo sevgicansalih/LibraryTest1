@@ -94,7 +94,7 @@ public protocol SDKPIPFunctions {
   func enterPIPMode()
 }
 @_hasMissingDesignatedInitializers public class CML {
-  public static func configure(environment: ClickmeliveiOSSDK.AppEnvironment.Environment, apiKey: Swift.String, apiSecret: Swift.String, user: ClickmeliveiOSSDK.CMLUser, onProductClick: @escaping (_ productId: Swift.String?, _ sellerId: Swift.String?) -> Swift.Void, onProductAddedToBasket: @escaping (_ productId: Swift.String?, _ sellerId: Swift.String?) -> Swift.Void, onBasketClick: @escaping () -> Swift.Void, onExitButtonClick: @escaping () -> Swift.Void, onLinkGenerationClick: @escaping (_ eventId: Swift.Int) -> Swift.Void, onMerchantClick: @escaping (_ sellerId: Swift.String?) -> Swift.Void)
+  public static func configure(environment: ClickmeliveiOSSDK.AppEnvironment.Environment, apiKey: Swift.String, apiSecret: Swift.String, user: ClickmeliveiOSSDK.CMLUser, onProductClick: @escaping (_ productId: Swift.String?, _ sellerId: Swift.String?) -> Swift.Void, onProductAddedToBasket: @escaping (_ productId: Swift.String?, _ sellerId: Swift.String?) -> Swift.Void, onBasketClick: @escaping () -> Swift.Void, onExitButtonClick: @escaping () -> Swift.Void, onLinkGenerationClick: @escaping (_ eventId: Swift.Int, _ eventType: Swift.Int) -> Swift.Void, onMerchantClick: @escaping (_ sellerId: Swift.String?) -> Swift.Void)
   public static func start(hostController: UIKit.UIViewController)
   public static func exit()
   public static func handleOnExitButtonClicked()
@@ -1633,7 +1633,7 @@ public struct EventResponse {
 @frozen public enum DiscoverAction {
   case minimizeTapped
   case eventProductsTapped(event: ClickmeliveiOSSDK.Event, bottomSheetHeight: ClickmeliveiOSSDK.BottomSheetHeight)
-  case shareTapped(eventId: Swift.Int)
+  case shareTapped(eventId: Swift.Int, eventType: Swift.Int)
   case feedLoading(isLoading: Swift.Bool)
   case streamEnded
   case liveEventSelected(event: ClickmeliveiOSSDK.Event)
@@ -1786,7 +1786,7 @@ public struct ChatConnectionParameters {
   case closeTapped
   case eventRated(eventId: Swift.Int, rate: Swift.Int)
   case streamEnded
-  case shareTapped(eventId: Swift.Int)
+  case shareTapped(eventId: Swift.Int, eventType: Swift.Int)
   case merchantTapped(sellerId: Swift.String?)
   case onBasketTapped
 }

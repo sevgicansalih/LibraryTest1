@@ -107,6 +107,12 @@ public protocol SDKPIPFunctions {
   public static func makeEventProductsViewController(event: ClickmeliveiOSSDK.Event?, bottomSheetHeight: ClickmeliveiOSSDK.BottomSheetHeight, cellType: ClickmeliveiOSSDK.EventProductCellType, events: [ClickmeliveiOSSDK.Event], selectedIndexPath: Foundation.IndexPath, rootNavigationController: UIKit.UINavigationController?) -> ClickmeliveiOSSDK.EventProductsViewController
   @objc deinit
 }
+@_inheritsConvenienceInitializers final public class RemoteEventLogger : ClickmeliveiOSSDK.RemoteClient<Foundation.Data>, ClickmeliveiOSSDK.EventLogger {
+  final public func event(name: Swift.String, userId: Swift.String, eventId: Swift.Int)
+  final public func share(userId: Swift.Int, eventId: Swift.Int)
+  override public init(client: any ClickmeliveiOSSDK.HTTPClient, baseURL: Foundation.URL, authTokenLoader: ClickmeliveiOSSDK.AuthTokenLoader? = nil)
+  @objc deinit
+}
 @objc @_Concurrency.MainActor(unsafe) final public class DiscoverCellController : ObjectiveC.NSObject, UIKit.UICollectionViewDataSource, UIKit.UICollectionViewDelegateFlowLayout {
   @_Concurrency.MainActor(unsafe) final public var onAction: ((ClickmeliveiOSSDK.DiscoverAction) -> Swift.Void)?
   @_Concurrency.MainActor(unsafe) final public var onError: ((ClickmeliveiOSSDK.EventViewModel?) -> Swift.Void)?
@@ -451,7 +457,10 @@ public struct Servers {
   public var chatProduction: Swift.String
   public var chatDevelopment: Swift.String
   public var chatStaging: Swift.String
-  public init(production: Swift.String, development: Swift.String, staging: Swift.String, eventStatsProduction: Swift.String, eventStatsDevelopment: Swift.String, eventStatsStaging: Swift.String, chatProduction: Swift.String, chatDevelopment: Swift.String, chatStaging: Swift.String)
+  public var analyticsProduction: Swift.String
+  public var analyticsDevelopment: Swift.String
+  public var analyticsStaging: Swift.String
+  public init(production: Swift.String, development: Swift.String, staging: Swift.String, eventStatsProduction: Swift.String, eventStatsDevelopment: Swift.String, eventStatsStaging: Swift.String, chatProduction: Swift.String, chatDevelopment: Swift.String, chatStaging: Swift.String, analyticsProduction: Swift.String, analyticsDevelopment: Swift.String, analyticsStaging: Swift.String)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class EventProductHiddenDetailCell : ClickmeliveiOSSDK.ProductCell {
   @_Concurrency.MainActor(unsafe) final public var onAddToBasketTapped: (() -> Swift.Void)?
@@ -617,7 +626,7 @@ public protocol URLRequestBuilder {
   var withHeader: [Swift.String : Swift.String]? { get }
 }
 extension ClickmeliveiOSSDK.URLRequestBuilder {
-  public func urlRequest(baseURL: Foundation.URL) -> Foundation.URLRequest
+  public func urlRequest(baseURL: Foundation.URL, shouldUseSDKHeaders: Swift.Bool = true) -> Foundation.URLRequest
 }
 public protocol WebSocketProtocol {
   func send(message: Swift.String)
@@ -1479,6 +1488,10 @@ final public class EventFilterItemViewModel {
   public static func map(_ data: Foundation.Data, from response: Foundation.HTTPURLResponse) throws -> [ClickmeliveiOSSDK.Live]
   @objc deinit
 }
+public protocol EventLogger {
+  func event(name: Swift.String, userId: Swift.String, eventId: Swift.Int)
+  func share(userId: Swift.Int, eventId: Swift.Int)
+}
 public struct Discover : Swift.Hashable {
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ClickmeliveiOSSDK.Discover, b: ClickmeliveiOSSDK.Discover) -> Swift.Bool
@@ -2236,6 +2249,11 @@ final public class RemoteEventStatsViewerLoader : ClickmeliveiOSSDK.EventStatsVi
   public init(client: ClickmeliveiOSSDK.WebSocketConnector, baseURL: Foundation.URL)
   final public func connect(eventId: Swift.Int, completion: @escaping (ClickmeliveiOSSDK.RemoteEventStatsViewerLoader.Result) -> Swift.Void)
   final public func disconnect()
+  @objc deinit
+}
+final public class EventLogViewModel {
+  public init(eventLogger: any ClickmeliveiOSSDK.EventLogger)
+  final public func logEvent(name: Swift.String, userId: Swift.String, eventId: Swift.Int)
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class SmallEventCell : ClickmeliveiOSSDK.EventCell {

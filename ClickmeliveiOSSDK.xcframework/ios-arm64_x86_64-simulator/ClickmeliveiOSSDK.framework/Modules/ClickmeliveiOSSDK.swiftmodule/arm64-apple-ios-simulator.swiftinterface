@@ -99,6 +99,8 @@ public protocol SDKPIPFunctions {
   public static func exit()
   public static func handleOnExitButtonClicked()
   public static func enterPipMode()
+  public static func enableCallbackAlerts()
+  public static func disableCallbackAlerts()
   public static func onDeepLinkEvent(hostController: UIKit.UIViewController, eventId: Swift.Int, eventType: Swift.Int)
   public static func makeHomePageViewController() -> UIKit.UIViewController
   public static func makeFeedViewController(events: [ClickmeliveiOSSDK.Event], selectedIndexPath: Foundation.IndexPath, rootNavigationController: UIKit.UINavigationController?, disablePip: Swift.Bool = false) -> ClickmeliveiOSSDK.FeedViewController

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		RyJRei6rUSHZcor5FSx8nVfa/xM=
+		u00c6k4WC5slgOIpomLkoncfW4Y=
 		</data>
 		<key>Headers/ClickmeliveiOSSDK-Swift.h</key>
 		<data>
@@ -102,11 +102,11 @@
 		</data>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		RDdQeTLNyhe6kAarElX3ZrIs7NQ=
+		VzDjpudX+6zTizmUjNgIGuxJbCI=
 		</data>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		qkf2Jy1b5vwKtUnZGCS1A7hMt6s=
+		MIrPZfBTHVG8N9HQYZ+Xz9JU7IE=
 		</data>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -114,19 +114,19 @@
 		</data>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		qkf2Jy1b5vwKtUnZGCS1A7hMt6s=
+		MIrPZfBTHVG8N9HQYZ+Xz9JU7IE=
 		</data>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+TUUty8vASkFaXF60fk1iaWXYnY=
+		6TFHgb51jfENd9LcbjNRPOfSb5Y=
 		</data>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		RDdQeTLNyhe6kAarElX3ZrIs7NQ=
+		VzDjpudX+6zTizmUjNgIGuxJbCI=
 		</data>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		vVYlvJI6OdTAi4g66xdyyU7QUHw=
+		x9OKH9PwJk36WinARUamfmSRRXM=
 		</data>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -134,11 +134,11 @@
 		</data>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		vVYlvJI6OdTAi4g66xdyyU7QUHw=
+		x9OKH9PwJk36WinARUamfmSRRXM=
 		</data>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zH3Dc+bY+aidqr+OHns1gab3ENI=
+		TMdJ20Sk9zCRsFiMZdgi2sTtCko=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -355,7 +355,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DKJMn8mSGA4UzhrDxLlh8wSsaWUCN617DcCw7GflTsM=
+			1rUTrPCkLwmRK446YoTaE9PRwbNIqyGjHzXmAttcm5A=
 			</data>
 		</dict>
 		<key>Headers/ClickmeliveiOSSDK-Swift.h</key>
@@ -516,14 +516,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DhTrRv5TX5laOavIuavcSoWRkHk7UTYB4vdvRc30Qj4=
+			vhFQzYrmi3h/gzyxaGKhsXak7hQ5sNSgn/eJUdMMRBs=
 			</data>
 		</dict>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MSuf140FfkKtvZmMllWFENqM0SDaMum4LsNeGCtfJMQ=
+			8tydILOGmK08FK9XfjPYRGebRtAelPtBVUZNDBR0Sqg=
 			</data>
 		</dict>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -537,28 +537,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MSuf140FfkKtvZmMllWFENqM0SDaMum4LsNeGCtfJMQ=
+			8tydILOGmK08FK9XfjPYRGebRtAelPtBVUZNDBR0Sqg=
 			</data>
 		</dict>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7ci54CfGfYUpTL3R6VQ/DmDGAyOzrHrBzv6mNY5CLnY=
+			n10RR3jaXdJ9fZC6QFjcfLU+MZtjEMkxnJl5rEgsYEU=
 			</data>
 		</dict>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DhTrRv5TX5laOavIuavcSoWRkHk7UTYB4vdvRc30Qj4=
+			vhFQzYrmi3h/gzyxaGKhsXak7hQ5sNSgn/eJUdMMRBs=
 			</data>
 		</dict>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AgqvYX9q9UHOMy0X6O+ty/Xmj384ICdXRkHBPxWGZLU=
+			lZtq09sg7JwdKoVYMJMmG+rROpSIs44R1Nd3l8Htqvo=
 			</data>
 		</dict>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -572,14 +572,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AgqvYX9q9UHOMy0X6O+ty/Xmj384ICdXRkHBPxWGZLU=
+			lZtq09sg7JwdKoVYMJMmG+rROpSIs44R1Nd3l8Htqvo=
 			</data>
 		</dict>
 		<key>Modules/ClickmeliveiOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9AbZ7AKXNGYZnIKSRqOYwVSbOpt352tzEBH6vVZhM0I=
+			LHK3m4zoX7VZK3EXCKIPVmBWcsqITRBo1FfhhSyUnqw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

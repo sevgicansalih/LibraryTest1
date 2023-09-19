@@ -25908,6 +25908,106 @@
           },
           {
             "kind": "Var",
+            "name": "lblLiveIconView",
+            "printedName": "lblLiveIconView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImageView",
+                "printedName": "UIKit.UIImageView",
+                "usr": "c:objc(cs)UIImageView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ClickmeliveiOSSDK15ViewerCountViewC011lblLiveIconE0So07UIImageE0Cvp",
+            "mangledName": "$s17ClickmeliveiOSSDK15ViewerCountViewC011lblLiveIconE0So07UIImageE0Cvp",
+            "moduleName": "ClickmeliveiOSSDK",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImageView",
+                    "printedName": "UIKit.UIImageView",
+                    "usr": "c:objc(cs)UIImageView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ClickmeliveiOSSDK15ViewerCountViewC011lblLiveIconE0So07UIImageE0Cvg",
+                "mangledName": "$s17ClickmeliveiOSSDK15ViewerCountViewC011lblLiveIconE0So07UIImageE0Cvg",
+                "moduleName": "ClickmeliveiOSSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lblLivePazarama",
+            "printedName": "lblLivePazarama",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UILabel",
+                "printedName": "UIKit.UILabel",
+                "usr": "c:objc(cs)UILabel"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ClickmeliveiOSSDK15ViewerCountViewC15lblLivePazaramaSo7UILabelCvp",
+            "mangledName": "$s17ClickmeliveiOSSDK15ViewerCountViewC15lblLivePazaramaSo7UILabelCvp",
+            "moduleName": "ClickmeliveiOSSDK",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ClickmeliveiOSSDK15ViewerCountViewC15lblLivePazaramaSo7UILabelCvg",
+                "mangledName": "$s17ClickmeliveiOSSDK15ViewerCountViewC15lblLivePazaramaSo7UILabelCvg",
+                "moduleName": "ClickmeliveiOSSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "lblLive",
             "printedName": "lblLive",
             "children": [
@@ -29002,6 +29102,16 @@
           "AccessControl"
         ],
         "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ClickmeliveiOSSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -51887,7 +51997,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(viewModel:)",
+            "printedName": "init(viewModel:isSortCell:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -51900,11 +52010,18 @@
                 "name": "EventFilterItemViewModel",
                 "printedName": "ClickmeliveiOSSDK.EventFilterItemViewModel",
                 "usr": "s:17ClickmeliveiOSSDK24EventFilterItemViewModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:17ClickmeliveiOSSDK25EventFilterCellControllerC9viewModelAcA0cd8ItemViewH0C_tcfc",
-            "mangledName": "$s17ClickmeliveiOSSDK25EventFilterCellControllerC9viewModelAcA0cd8ItemViewH0C_tcfc",
+            "usr": "s:17ClickmeliveiOSSDK25EventFilterCellControllerC9viewModel06isSortE0AcA0cd8ItemViewH0C_Sbtcfc",
+            "mangledName": "$s17ClickmeliveiOSSDK25EventFilterCellControllerC9viewModel06isSortE0AcA0cd8ItemViewH0C_Sbtcfc",
             "moduleName": "ClickmeliveiOSSDK",
             "declAttributes": [
               "Custom",
@@ -54918,6 +55035,49 @@
         "moduleName": "ClickmeliveiOSSDK",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Checkbox",
+        "printedName": "Checkbox",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setSelected",
+            "printedName": "setSelected(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17ClickmeliveiOSSDK8CheckboxP11setSelectedyySbF",
+            "mangledName": "$s17ClickmeliveiOSSDK8CheckboxP11setSelectedyySbF",
+            "moduleName": "ClickmeliveiOSSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ClickmeliveiOSSDK.Checkbox>",
+            "sugared_genericSig": "<Self where Self : ClickmeliveiOSSDK.Checkbox>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:17ClickmeliveiOSSDK8CheckboxP",
+        "mangledName": "$s17ClickmeliveiOSSDK8CheckboxP",
+        "moduleName": "ClickmeliveiOSSDK",
+        "genericSig": "<τ_0_0 : UIKit.UIView>",
+        "sugared_genericSig": "<Self : UIKit.UIView>",
+        "declAttributes": [
+          "AccessControl"
         ]
       },
       {
@@ -61928,6 +62088,16 @@
           "AccessControl"
         ],
         "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ClickmeliveiOSSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -70092,78 +70262,85 @@
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
+      "kind": "BooleanLiteral",
+      "offset": 25868,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "IntegerLiteral",
-      "offset": 26057,
+      "offset": 26075,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "BooleanLiteral",
-      "offset": 26352,
+      "offset": 26370,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 26474,
+      "offset": 26492,
       "length": 4,
       "value": "\", \""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 26483,
+      "offset": 26501,
       "length": 15,
       "value": "\"Tüm Videolar\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 26609,
+      "offset": 26627,
       "length": 15,
       "value": "\"Tüm Videolar\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "IntegerLiteral",
-      "offset": 26662,
+      "offset": 26680,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "BooleanLiteral",
-      "offset": 26706,
+      "offset": 26724,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 26932,
+      "offset": 26950,
       "length": 35,
       "value": "\"CML must be configured before use\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "IntegerLiteral",
-      "offset": 28705,
+      "offset": 28723,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "IntegerLiteral",
-      "offset": 28716,
+      "offset": 28734,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "BooleanLiteral",
-      "offset": 29962,
+      "offset": 29980,
       "length": 5,
       "value": "false"
     },
@@ -72013,7 +72190,7 @@
       "kind": "FloatLiteral",
       "offset": 881,
       "length": 4,
-      "value": "0.15"
+      "value": "0.30"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/EventTypeView.swift",
@@ -72032,133 +72209,133 @@
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/EventTypeView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1213,
+      "offset": 1227,
       "length": 2,
-      "value": "12"
+      "value": "13"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/EventTypeView.swift",
       "kind": "StringLiteral",
-      "offset": 1568,
+      "offset": 1637,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/EventTypeView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1826,
+      "offset": 1895,
       "length": 2,
       "value": "28"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/EventTypeView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1966,
+      "offset": 2035,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/EventTypeView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1983,
+      "offset": 2052,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/EventTypeView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2002,
+      "offset": 2071,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/EventTypeView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2020,
+      "offset": 2089,
       "length": 2,
       "value": "-4"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/EventTypeView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2091,
+      "offset": 2160,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/EventTypeView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2219,
+      "offset": 2288,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/EventTypeView.swift",
       "kind": "StringLiteral",
-      "offset": 2403,
+      "offset": 2472,
       "length": 16,
       "value": "\"icon_type_live\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/EventTypeView.swift",
       "kind": "StringLiteral",
-      "offset": 2528,
+      "offset": 2597,
       "length": 19,
       "value": "\"icon_type_auction\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/EventTypeView.swift",
       "kind": "StringLiteral",
-      "offset": 2653,
+      "offset": 2722,
       "length": 17,
       "value": "\"icon_type_video\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/EventTypeView.swift",
       "kind": "StringLiteral",
-      "offset": 2776,
+      "offset": 2845,
       "length": 23,
       "value": "\"icon_type_past_stream\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/EventTypeView.swift",
       "kind": "StringLiteral",
-      "offset": 2905,
+      "offset": 2974,
       "length": 10,
       "value": "\"bellIcon\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/EventTypeView.swift",
       "kind": "StringLiteral",
-      "offset": 2971,
+      "offset": 3040,
       "length": 18,
       "value": "\"BellIconSelected\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/EventTypeView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3117,
+      "offset": 3186,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/EventTypeView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3127,
+      "offset": 3196,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/EventTypeView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3136,
+      "offset": 3205,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/EventTypeView.swift",
       "kind": "FloatLiteral",
-      "offset": 3146,
+      "offset": 3215,
       "length": 4,
       "value": "0.15"
     },
@@ -73355,189 +73532,217 @@
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/DurationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 254,
+      "offset": 251,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/DurationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 266,
+      "offset": 263,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/DurationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 275,
+      "offset": 272,
       "length": 3,
       "value": "139"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/DurationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 334,
+      "offset": 328,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/DurationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 346,
+      "offset": 340,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/DurationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 357,
+      "offset": 351,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/DurationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 732,
+      "offset": 414,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/DurationView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 426,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/DurationView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 437,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/DurationView.swift",
+      "kind": "FloatLiteral",
+      "offset": 449,
+      "length": 4,
+      "value": "0.35"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/DurationView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 910,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/DurationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 965,
+      "offset": 1198,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/DurationView.swift",
       "kind": "StringLiteral",
-      "offset": 1264,
+      "offset": 1552,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/DurationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1608,
+      "offset": 1896,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/DurationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1625,
+      "offset": 1913,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/DurationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1644,
+      "offset": 1932,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/DurationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1662,
+      "offset": 1950,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/DurationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1680,
+      "offset": 1968,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/DurationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1699,
+      "offset": 1987,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/DurationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1831,
+      "offset": 2119,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/DurationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1848,
+      "offset": 2136,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/DurationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1867,
+      "offset": 2155,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/DurationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1885,
+      "offset": 2173,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/DurationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1903,
+      "offset": 2191,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/DurationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1922,
+      "offset": 2210,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/DurationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2048,
+      "offset": 2336,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/DurationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2065,
+      "offset": 2353,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/DurationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2084,
+      "offset": 2372,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/DurationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2102,
+      "offset": 2390,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/DurationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2120,
+      "offset": 2408,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/DurationView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2139,
+      "offset": 2427,
       "length": 1,
       "value": "0"
     },
@@ -74720,490 +74925,497 @@
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1006,
+      "offset": 1004,
+      "length": 18,
+      "value": "\"sortIconPazarama\""
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1071,
       "length": 13,
       "value": "\"icon_filter\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1711,
+      "offset": 1776,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2092,
+      "offset": 2157,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2251,
+      "offset": 2316,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2281,
+      "offset": 2346,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2397,
+      "offset": 2462,
       "length": 19,
       "value": "\"Seçimleri Uygula\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2860,
+      "offset": 2925,
       "length": 10,
       "value": "\"Filtrele\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3233,
+      "offset": 3298,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3519,
+      "offset": 3584,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3529,
+      "offset": 3594,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3538,
+      "offset": 3603,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3548,
+      "offset": 3613,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3806,
+      "offset": 3871,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3816,
+      "offset": 3881,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3825,
+      "offset": 3890,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3835,
+      "offset": 3900,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3970,
+      "offset": 4035,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3975,
+      "offset": 4040,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3980,
+      "offset": 4045,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4059,
+      "offset": 4124,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4115,
+      "offset": 4180,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4124,
+      "offset": 4189,
       "length": 2,
       "value": "-8"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4136,
+      "offset": 4201,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4146,
+      "offset": 4211,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4278,
+      "offset": 4343,
       "length": 9,
       "value": "\"Sırala\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4641,
+      "offset": 4706,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4997,
+      "offset": 5210,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5007,
+      "offset": 5220,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5016,
+      "offset": 5229,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5026,
+      "offset": 5239,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5290,
+      "offset": 5497,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5300,
+      "offset": 5507,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5309,
+      "offset": 5516,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5319,
+      "offset": 5526,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5474,
+      "offset": 5681,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5483,
+      "offset": 5690,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5494,
+      "offset": 5701,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5504,
+      "offset": 5711,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6952,
+      "offset": 7159,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7474,
+      "offset": 7681,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8051,
+      "offset": 8258,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8214,
+      "offset": 8421,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8257,
+      "offset": 8464,
       "length": 10,
       "value": "\"Filtrele\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8342,
+      "offset": 8549,
       "length": 20,
       "value": "\"Filtrele(\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8360,
+      "offset": 8567,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8714,
+      "offset": 8921,
       "length": 17,
       "value": "\"EventFilterCell\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8810,
+      "offset": 9017,
       "length": 17,
       "value": "\"EventFilterCell\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9945,
+      "offset": 10152,
       "length": 2,
       "value": "82"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10128,
+      "offset": 10335,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10170,
+      "offset": 10377,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10215,
+      "offset": 10422,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10258,
+      "offset": 10465,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10302,
+      "offset": 10509,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10346,
+      "offset": 10553,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10727,
+      "offset": 10934,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10769,
+      "offset": 10976,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10818,
+      "offset": 11025,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10868,
+      "offset": 11075,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10908,
+      "offset": 11115,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11374,
+      "offset": 11581,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11456,
+      "offset": 11663,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11895,
+      "offset": 12102,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12177,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12216,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12253,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12293,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
-      "kind": "BooleanLiteral",
       "offset": 12384,
-      "length": 4,
-      "value": "true"
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12422,
-      "length": 5,
-      "value": "false"
+      "offset": 12423,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 12460,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12500,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12499,
+      "offset": 12591,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12629,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12667,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12706,
       "length": 5,
       "value": "false"
     },
@@ -75217,63 +75429,63 @@
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12984,
+      "offset": 13191,
       "length": 2,
       "value": "58"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13627,
+      "offset": 13834,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13679,
+      "offset": 13886,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13738,
+      "offset": 13945,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13793,
+      "offset": 14000,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13834,
+      "offset": 14041,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13928,
+      "offset": 14135,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 14007,
+      "offset": 14214,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 14539,
+      "offset": 14746,
       "length": 5,
       "value": "false"
     },
@@ -75307,232 +75519,232 @@
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
-      "kind": "FloatLiteral",
-      "offset": 1041,
-      "length": 5,
-      "value": "-1.00"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
-      "kind": "FloatLiteral",
-      "offset": 1049,
-      "length": 3,
-      "value": "0.1"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1489,
+      "offset": 1435,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1995,
+      "offset": 1941,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2420,
+      "offset": 2366,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
       "kind": "Array",
-      "offset": 2451,
+      "offset": 2397,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2485,
+      "offset": 2431,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2528,
+      "offset": 2474,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2768,
+      "offset": 2714,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2828,
+      "offset": 2774,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2866,
+      "offset": 2812,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2907,
+      "offset": 2853,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3100,
+      "offset": 3046,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3380,
+      "offset": 3326,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3712,
+      "offset": 3658,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 3745,
+      "offset": 3691,
       "length": 10,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 3754,
+      "offset": 3700,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 4042,
+      "offset": 3988,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 4350,
+      "offset": 4296,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4379,
+      "offset": 4325,
       "length": 10,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4388,
+      "offset": 4334,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 4568,
+      "offset": 4514,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4553,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 4557,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4805,
+      "offset": 4797,
       "length": 6,
       "value": "\"DESC\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 4864,
+      "offset": 4856,
       "length": 6,
       "value": "\"DESC\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 5355,
+      "offset": 5347,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5405,
+      "offset": 5397,
       "length": 15,
       "value": "\"Tüm Videolar\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 5462,
+      "offset": 5454,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5536,
+      "offset": 5528,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 5580,
+      "offset": 5572,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 5684,
+      "offset": 5676,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5713,
+      "offset": 5705,
       "length": 17,
       "value": "\"Error: \""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5729,
+      "offset": 5721,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/Presentation\/ListEventsViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 5779,
+      "offset": 5771,
       "length": 14,
       "value": "\"Error: empty\""
     },
@@ -76512,133 +76724,154 @@
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/View\/DiscoverTapToJoinView.swift",
       "kind": "StringLiteral",
-      "offset": 440,
+      "offset": 459,
       "length": 11,
       "value": "\"tapToJoin\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/View\/DiscoverTapToJoinView.swift",
       "kind": "IntegerLiteral",
-      "offset": 493,
+      "offset": 512,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/View\/DiscoverTapToJoinView.swift",
       "kind": "IntegerLiteral",
-      "offset": 499,
+      "offset": 518,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/View\/DiscoverTapToJoinView.swift",
       "kind": "IntegerLiteral",
-      "offset": 509,
+      "offset": 528,
       "length": 2,
       "value": "37"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/View\/DiscoverTapToJoinView.swift",
       "kind": "IntegerLiteral",
-      "offset": 521,
+      "offset": 540,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/View\/DiscoverTapToJoinView.swift",
       "kind": "FloatLiteral",
-      "offset": 603,
+      "offset": 622,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/View\/DiscoverTapToJoinView.swift",
       "kind": "IntegerLiteral",
-      "offset": 769,
-      "length": 1,
-      "value": "0"
+      "offset": 830,
+      "length": 2,
+      "value": "16"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/View\/DiscoverTapToJoinView.swift",
       "kind": "IntegerLiteral",
-      "offset": 827,
+      "offset": 915,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/View\/DiscoverTapToJoinView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 945,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/View\/DiscoverTapToJoinView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1032,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/View\/DiscoverTapToJoinView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1089,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/View\/DiscoverTapToJoinView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1098,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/View\/DiscoverTapToJoinView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1110,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/View\/DiscoverTapToJoinView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1120,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/View\/DiscoverTapToJoinView.swift",
       "kind": "FloatLiteral",
-      "offset": 1051,
-      "length": 4,
-      "value": "0.15"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/View\/DiscoverTapToJoinView.swift",
-      "kind": "FloatLiteral",
-      "offset": 1086,
+      "offset": 1260,
       "length": 3,
       "value": "6.0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/View\/DiscoverTapToJoinView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1114,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/View\/DiscoverTapToJoinView.swift",
       "kind": "StringLiteral",
-      "offset": 1238,
+      "offset": 1383,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/View\/DiscoverTapToJoinView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1525,
+      "offset": 1672,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/View\/DiscoverTapToJoinView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1544,
+      "offset": 1691,
       "length": 2,
       "value": "37"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/View\/DiscoverTapToJoinView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1564,
+      "offset": 1711,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/View\/DiscoverTapToJoinView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1621,
+      "offset": 1771,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/View\/DiscoverTapToJoinView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1711,
+      "offset": 1829,
       "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/View\/DiscoverTapToJoinView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1729,
-      "length": 2,
-      "value": "16"
+      "value": "2"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/View\/DiscoverTapToJoinView.swift",
       "kind": "StringLiteral",
-      "offset": 1858,
+      "offset": 1957,
       "length": 11,
       "value": "\"icon_join\""
     },
@@ -80592,246 +80825,288 @@
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 478,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 487,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 498,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 508,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 531,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 540,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 551,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 561,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
       "kind": "BooleanLiteral",
-      "offset": 626,
+      "offset": 470,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1017,
+      "offset": 861,
       "length": 1,
-      "value": "8"
+      "value": "4"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1061,
+      "offset": 905,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1161,
+      "offset": 991,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1224,
+      "offset": 1054,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1294,
+      "offset": 1128,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1337,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1474,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1491,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1510,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1528,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1601,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1646,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1746,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1809,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1887,
+      "offset": 1184,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1930,
+      "offset": 1227,
       "length": 2,
-      "value": "10"
+      "value": "13"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2068,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2085,
+      "offset": 1308,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2104,
+      "offset": 1317,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1328,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1338,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1475,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2122,
+      "offset": 1492,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1511,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1529,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1614,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1658,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1700,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1745,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1848,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1911,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1975,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2018,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2099,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2108,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2119,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2129,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2266,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2283,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2302,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2320,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
       "kind": "StringLiteral",
-      "offset": 2270,
+      "offset": 2482,
       "length": 11,
       "value": "\"icon_live\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
       "kind": "StringLiteral",
-      "offset": 2325,
+      "offset": 2537,
       "length": 14,
       "value": "\"icon_viewers\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
+      "kind": "StringLiteral",
+      "offset": 2731,
+      "length": 22,
+      "value": "\"icon_type_live_small\""
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
       "kind": "FloatLiteral",
-      "offset": 2750,
+      "offset": 3090,
       "length": 3,
-      "value": "4.0"
+      "value": "2.0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
       "kind": "StringLiteral",
-      "offset": 3304,
+      "offset": 3874,
+      "length": 31,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
+      "kind": "StringLiteral",
+      "offset": 3902,
+      "length": 1,
+      "value": "\" |\""
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
+      "kind": "StringLiteral",
+      "offset": 4096,
       "length": 7,
       "value": "\"CANLI\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3416,
+      "offset": 4208,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/ViewerCountView.swift",
       "kind": "StringLiteral",
-      "offset": 3805,
+      "offset": 4597,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
@@ -81107,6 +81382,139 @@
       "offset": 1550,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/PazaramaCheckbox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 253,
+      "length": 3,
+      "value": "138"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/PazaramaCheckbox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 265,
+      "length": 3,
+      "value": "138"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/PazaramaCheckbox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 276,
+      "length": 3,
+      "value": "148"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/PazaramaCheckbox.swift",
+      "kind": "BooleanLiteral",
+      "offset": 320,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/PazaramaCheckbox.swift",
+      "kind": "BooleanLiteral",
+      "offset": 433,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/PazaramaCheckbox.swift",
+      "kind": "StringLiteral",
+      "offset": 527,
+      "length": 10,
+      "value": "\"img_tick\""
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/PazaramaCheckbox.swift",
+      "kind": "FloatLiteral",
+      "offset": 764,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/PazaramaCheckbox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 864,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/PazaramaCheckbox.swift",
+      "kind": "BooleanLiteral",
+      "offset": 895,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/PazaramaCheckbox.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1083,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/PazaramaCheckbox.swift",
+      "kind": "StringLiteral",
+      "offset": 1155,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/PazaramaCheckbox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1309,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/PazaramaCheckbox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1315,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/PazaramaCheckbox.swift",
+      "kind": "FloatLiteral",
+      "offset": 1403,
+      "length": 4,
+      "value": "8.42"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/PazaramaCheckbox.swift",
+      "kind": "FloatLiteral",
+      "offset": 1442,
+      "length": 5,
+      "value": "12.44"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/PazaramaCheckbox.swift",
+      "kind": "FloatLiteral",
+      "offset": 2254,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/PazaramaCheckbox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2360,
+      "length": 2,
+      "value": "54"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/PazaramaCheckbox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2371,
+      "length": 2,
+      "value": "71"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/PazaramaCheckbox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2381,
+      "length": 2,
+      "value": "81"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Controllers\/DiscoverViewController.swift",
@@ -88468,518 +88876,525 @@
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "StringLiteral",
-      "offset": 5913,
+      "offset": 5920,
+      "length": 20,
+      "value": "\"img_pazarama_share\""
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
+      "kind": "StringLiteral",
+      "offset": 5982,
       "length": 24,
       "value": "\"img_add_to_basket_plus\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "StringLiteral",
-      "offset": 5981,
+      "offset": 6050,
       "length": 16,
       "value": "\"icon_following\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "StringLiteral",
-      "offset": 6114,
+      "offset": 6183,
       "length": 21,
       "value": "\"img_profile_account\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 6373,
+      "offset": 6442,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 6440,
+      "offset": 6509,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 6865,
+      "offset": 6934,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "FloatLiteral",
-      "offset": 6952,
+      "offset": 7021,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 6983,
+      "offset": 7052,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 7026,
+      "offset": 7095,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "StringLiteral",
-      "offset": 7068,
+      "offset": 7137,
       "length": 22,
       "value": "\"Discover.SellerImage\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 7309,
+      "offset": 7378,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 7464,
+      "offset": 7533,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "StringLiteral",
-      "offset": 7725,
+      "offset": 7794,
       "length": 23,
       "value": "\"DiscoverCell.Products\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 7971,
+      "offset": 8040,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 8323,
+      "offset": 8661,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "StringLiteral",
-      "offset": 8365,
+      "offset": 8703,
       "length": 22,
       "value": "\"Discover.ShareButton\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 8533,
+      "offset": 8871,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 8695,
+      "offset": 9033,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 9144,
+      "offset": 9482,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 9336,
+      "offset": 9674,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "FloatLiteral",
-      "offset": 9423,
+      "offset": 9761,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 9454,
+      "offset": 9792,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 9497,
+      "offset": 9835,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "StringLiteral",
-      "offset": 9539,
+      "offset": 9877,
       "length": 22,
       "value": "\"Discover.SellerImage\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 9723,
+      "offset": 10061,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 9790,
+      "offset": 10128,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "StringLiteral",
-      "offset": 10199,
+      "offset": 10537,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 11474,
+      "offset": 11812,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 11492,
+      "offset": 11830,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 11511,
+      "offset": 11849,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 11529,
+      "offset": 11867,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 11547,
+      "offset": 11885,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 11566,
+      "offset": 11904,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 11695,
+      "offset": 12033,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 11712,
+      "offset": 12050,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 11731,
+      "offset": 12069,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 11749,
+      "offset": 12087,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 11767,
+      "offset": 12105,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 11786,
+      "offset": 12124,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 11947,
+      "offset": 12285,
       "length": 2,
-      "value": "48"
+      "value": "70"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 11965,
+      "offset": 12303,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 11984,
+      "offset": 12322,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 12002,
+      "offset": 12340,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 12020,
+      "offset": 12358,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 12039,
+      "offset": 12377,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 12251,
+      "offset": 12589,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 12296,
+      "offset": 12634,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 12341,
+      "offset": 12679,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 12387,
+      "offset": 12725,
       "length": 2,
       "value": "51"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 12591,
+      "offset": 12929,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 12632,
+      "offset": 12970,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 12674,
+      "offset": 13012,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 12716,
+      "offset": 13054,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 12760,
+      "offset": 13098,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 12858,
+      "offset": 13196,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 12875,
+      "offset": 13213,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 12894,
+      "offset": 13232,
       "length": 2,
       "value": "68"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 12994,
+      "offset": 13332,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 13094,
+      "offset": 13432,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 13184,
+      "offset": 13522,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 13235,
+      "offset": 13573,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 13276,
+      "offset": 13614,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 13488,
+      "offset": 13826,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 13508,
+      "offset": 13846,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "FloatLiteral",
-      "offset": 13696,
+      "offset": 14034,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 13711,
+      "offset": 14049,
       "length": 3,
       "value": "-16"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 13877,
+      "offset": 14215,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 13894,
+      "offset": 14232,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 13913,
+      "offset": 14251,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 13931,
+      "offset": 14269,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 13950,
+      "offset": 14288,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 13970,
+      "offset": 14308,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 14020,
+      "offset": 14358,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Views\/Cell\/DiscoverCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 14040,
+      "offset": 14378,
       "length": 2,
       "value": "25"
     },
@@ -89671,15 +90086,22 @@
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterCellController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 372,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterCellController.swift",
       "kind": "IntegerLiteral",
-      "offset": 482,
+      "offset": 570,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Controllers\/EventFilterCellController.swift",
       "kind": "IntegerLiteral",
-      "offset": 851,
+      "offset": 963,
       "length": 2,
       "value": "58"
     },
@@ -90155,574 +90577,546 @@
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "StringLiteral",
-      "offset": 8840,
-      "length": 18,
-      "value": "\"img_chat_enabled\""
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "StringLiteral",
-      "offset": 8907,
-      "length": 19,
-      "value": "\"img_chat_disabled\""
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "StringLiteral",
-      "offset": 8970,
-      "length": 20,
-      "value": "\"img_bidbuy_payment\""
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "StringLiteral",
-      "offset": 9033,
-      "length": 24,
-      "value": "\"img_add_to_basket_plus\""
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "StringLiteral",
-      "offset": 9102,
-      "length": 16,
-      "value": "\"icon_following\""
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "StringLiteral",
-      "offset": 9168,
-      "length": 23,
-      "value": "\"auction_products_icon\""
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "StringLiteral",
-      "offset": 9245,
-      "length": 21,
-      "value": "\"img_profile_account\""
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9719,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "StringLiteral",
-      "offset": 9825,
-      "length": 21,
-      "value": "\"FeedCell.TitleLabel\""
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10016,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "StringLiteral",
-      "offset": 10285,
-      "length": 23,
-      "value": "\"FeedCell.ProductsView\""
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "StringLiteral",
-      "offset": 10456,
-      "length": 19,
-      "value": "\"FeedCell.Minimize\""
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "StringLiteral",
-      "offset": 10624,
-      "length": 16,
-      "value": "\"img_close_feed\""
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "StringLiteral",
-      "offset": 10900,
-      "length": 12,
-      "value": "\"img_basket\""
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11067,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11270,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "FloatLiteral",
-      "offset": 11393,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11428,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11475,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "StringLiteral",
-      "offset": 11521,
-      "length": 22,
-      "value": "\"FeedCell.SellerImage\""
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "FloatLiteral",
-      "offset": 11830,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11865,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12151,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "StringLiteral",
-      "offset": 12374,
-      "length": 26,
-      "value": "\"FeedCell.ViewerCountView\""
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "StringLiteral",
-      "offset": 12548,
-      "length": 19,
-      "value": "\"FeedCell.ChatView\""
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12980,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "StringLiteral",
-      "offset": 13023,
-      "length": 23,
-      "value": "\"FeedCell.ShowHideChat\""
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "StringLiteral",
-      "offset": 13214,
-      "length": 22,
-      "value": "\"FeedCell.MessageView\""
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13390,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13893,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "StringLiteral",
-      "offset": 14168,
+      "offset": 8842,
       "length": 20,
       "value": "\"img_pazarama_share\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "StringLiteral",
-      "offset": 14372,
+      "offset": 8910,
+      "length": 18,
+      "value": "\"img_chat_enabled\""
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "StringLiteral",
+      "offset": 8977,
+      "length": 19,
+      "value": "\"img_chat_disabled\""
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "StringLiteral",
+      "offset": 9040,
       "length": 20,
-      "value": "\"FeedCell.ShareView\""
+      "value": "\"img_bidbuy_payment\""
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "StringLiteral",
+      "offset": 9103,
+      "length": 24,
+      "value": "\"img_add_to_basket_plus\""
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "StringLiteral",
+      "offset": 9172,
+      "length": 16,
+      "value": "\"icon_following\""
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "StringLiteral",
+      "offset": 9238,
+      "length": 23,
+      "value": "\"auction_products_icon\""
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "StringLiteral",
+      "offset": 9315,
+      "length": 21,
+      "value": "\"img_profile_account\""
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9789,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "StringLiteral",
+      "offset": 9895,
+      "length": 21,
+      "value": "\"FeedCell.TitleLabel\""
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10086,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "StringLiteral",
+      "offset": 10355,
+      "length": 23,
+      "value": "\"FeedCell.ProductsView\""
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "StringLiteral",
+      "offset": 10526,
+      "length": 19,
+      "value": "\"FeedCell.Minimize\""
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "StringLiteral",
+      "offset": 10694,
+      "length": 16,
+      "value": "\"img_close_feed\""
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "StringLiteral",
+      "offset": 10970,
+      "length": 12,
+      "value": "\"img_basket\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 14432,
+      "offset": 11137,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11340,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 11463,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11498,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11545,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "StringLiteral",
-      "offset": 14718,
+      "offset": 11591,
+      "length": 22,
+      "value": "\"FeedCell.SellerImage\""
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 11900,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11935,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12221,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "StringLiteral",
+      "offset": 12444,
+      "length": 26,
+      "value": "\"FeedCell.ViewerCountView\""
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "StringLiteral",
+      "offset": 12618,
+      "length": 19,
+      "value": "\"FeedCell.ChatView\""
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13050,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "StringLiteral",
+      "offset": 13093,
+      "length": 23,
+      "value": "\"FeedCell.ShowHideChat\""
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "StringLiteral",
+      "offset": 13284,
+      "length": 22,
+      "value": "\"FeedCell.MessageView\""
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13460,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13963,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "StringLiteral",
+      "offset": 14728,
+      "length": 20,
+      "value": "\"FeedCell.ShareView\""
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14788,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "StringLiteral",
+      "offset": 15074,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 16049,
+      "offset": 16405,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 16066,
+      "offset": 16422,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 16085,
+      "offset": 16441,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 16103,
+      "offset": 16459,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 16121,
+      "offset": 16477,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 16140,
+      "offset": 16496,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 16341,
+      "offset": 16697,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 16358,
+      "offset": 16714,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 16378,
+      "offset": 16734,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 16397,
+      "offset": 16753,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 16415,
+      "offset": 16771,
       "length": 2,
       "value": "35"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16435,
-      "length": 2,
-      "value": "35"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16562,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16579,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16598,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16616,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16635,
-      "length": 2,
-      "value": "35"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16655,
-      "length": 2,
-      "value": "35"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16704,
-      "length": 2,
-      "value": "24"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16744,
-      "length": 2,
-      "value": "24"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
       "offset": 16791,
       "length": 2,
-      "value": "24"
+      "value": "35"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 16829,
+      "offset": 16918,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16935,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16954,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16972,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16991,
+      "length": 2,
+      "value": "35"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17011,
+      "length": 2,
+      "value": "35"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17060,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 16945,
+      "offset": 17100,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17147,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17185,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17301,
       "length": 2,
       "value": "26"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 16965,
+      "offset": 17321,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "FloatLiteral",
-      "offset": 17134,
+      "offset": 17490,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 17149,
+      "offset": 17505,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 17203,
+      "offset": 17559,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 17443,
+      "offset": 17799,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 17463,
+      "offset": 17819,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "FloatLiteral",
-      "offset": 17644,
+      "offset": 18000,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 17659,
+      "offset": 18015,
       "length": 3,
       "value": "-16"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 17836,
+      "offset": 18192,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 17853,
+      "offset": 18209,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 17872,
+      "offset": 18228,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 17890,
+      "offset": 18246,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 17909,
+      "offset": 18265,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 17929,
+      "offset": 18285,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 18052,
+      "offset": 18408,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 18069,
+      "offset": 18425,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 18089,
+      "offset": 18445,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 18107,
+      "offset": 18463,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 18126,
+      "offset": 18482,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 18145,
+      "offset": 18501,
       "length": 3,
       "value": "250"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 18258,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18277,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18386,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18493,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18590,
+      "offset": 18614,
       "length": 2,
       "value": "16"
     },
@@ -90731,33 +91125,61 @@
       "kind": "IntegerLiteral",
       "offset": 18633,
       "length": 2,
-      "value": "25"
+      "value": "60"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 18653,
+      "offset": 18742,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18849,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18946,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18989,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 18727,
+      "offset": 19009,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19083,
       "length": 2,
       "value": "45"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 18746,
+      "offset": 19102,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/FeedCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 18766,
+      "offset": 19122,
       "length": 2,
       "value": "32"
     },
@@ -90897,133 +91319,133 @@
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/CMLCheckbox.swift",
       "kind": "BooleanLiteral",
-      "offset": 177,
+      "offset": 187,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/CMLCheckbox.swift",
       "kind": "BooleanLiteral",
-      "offset": 294,
+      "offset": 304,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/CMLCheckbox.swift",
       "kind": "StringLiteral",
-      "offset": 390,
+      "offset": 400,
       "length": 10,
       "value": "\"img_tick\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/CMLCheckbox.swift",
       "kind": "FloatLiteral",
-      "offset": 717,
+      "offset": 727,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/CMLCheckbox.swift",
       "kind": "IntegerLiteral",
-      "offset": 772,
+      "offset": 782,
       "length": 2,
       "value": "54"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/CMLCheckbox.swift",
-      "kind": "IntegerLiteral",
-      "offset": 783,
-      "length": 2,
-      "value": "71"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/CMLCheckbox.swift",
       "kind": "IntegerLiteral",
       "offset": 793,
       "length": 2,
+      "value": "71"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/CMLCheckbox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 803,
+      "length": 2,
       "value": "81"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/CMLCheckbox.swift",
       "kind": "IntegerLiteral",
-      "offset": 840,
+      "offset": 850,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/CMLCheckbox.swift",
       "kind": "BooleanLiteral",
-      "offset": 872,
+      "offset": 882,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/CMLCheckbox.swift",
       "kind": "BooleanLiteral",
-      "offset": 1068,
+      "offset": 1078,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/CMLCheckbox.swift",
       "kind": "StringLiteral",
-      "offset": 1144,
+      "offset": 1154,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/CMLCheckbox.swift",
       "kind": "IntegerLiteral",
-      "offset": 1303,
+      "offset": 1313,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/CMLCheckbox.swift",
       "kind": "IntegerLiteral",
-      "offset": 1309,
+      "offset": 1319,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/CMLCheckbox.swift",
       "kind": "FloatLiteral",
-      "offset": 1398,
+      "offset": 1408,
       "length": 4,
       "value": "8.42"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/CMLCheckbox.swift",
       "kind": "FloatLiteral",
-      "offset": 1438,
+      "offset": 1448,
       "length": 5,
       "value": "12.44"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/CMLCheckbox.swift",
       "kind": "FloatLiteral",
-      "offset": 1908,
+      "offset": 1918,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/CMLCheckbox.swift",
       "kind": "IntegerLiteral",
-      "offset": 2018,
+      "offset": 2028,
       "length": 2,
       "value": "54"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/CMLCheckbox.swift",
       "kind": "IntegerLiteral",
-      "offset": 2029,
+      "offset": 2039,
       "length": 2,
       "value": "71"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/CMLCheckbox.swift",
       "kind": "IntegerLiteral",
-      "offset": 2039,
+      "offset": 2049,
       "length": 2,
       "value": "81"
     },
@@ -92304,133 +92726,147 @@
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/API\/EventAPI.swift",
       "kind": "StringLiteral",
-      "offset": 4465,
+      "offset": 4472,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/API\/EventAPI.swift",
       "kind": "StringLiteral",
-      "offset": 4480,
+      "offset": 4487,
       "length": 9,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/API\/EventAPI.swift",
       "kind": "StringLiteral",
-      "offset": 4488,
+      "offset": 4495,
       "length": 24,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/API\/EventAPI.swift",
       "kind": "StringLiteral",
-      "offset": 4511,
+      "offset": 4518,
       "length": 6,
       "value": "\"page\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/API\/EventAPI.swift",
       "kind": "StringLiteral",
-      "offset": 4526,
+      "offset": 4533,
       "length": 9,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/API\/EventAPI.swift",
       "kind": "StringLiteral",
-      "offset": 4534,
+      "offset": 4541,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/API\/EventAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 4620,
+      "offset": 4627,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/API\/EventAPI.swift",
       "kind": "StringLiteral",
-      "offset": 4735,
+      "offset": 4742,
       "length": 14,
       "value": "\"interestId[]\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/API\/EventAPI.swift",
       "kind": "StringLiteral",
-      "offset": 4758,
+      "offset": 4765,
       "length": 13,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/API\/EventAPI.swift",
       "kind": "StringLiteral",
-      "offset": 4770,
+      "offset": 4777,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/API\/EventAPI.swift",
       "kind": "StringLiteral",
-      "offset": 5089,
+      "offset": 4912,
+      "length": 6,
+      "value": "\"seed\""
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/API\/EventAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 4942,
+      "length": 6,
+      "value": "\"%.2f\""
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/API\/EventAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 5090,
       "length": 22,
       "value": "\"virtualViewerOrderBy\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/API\/EventAPI.swift",
       "kind": "StringLiteral",
-      "offset": 5120,
+      "offset": 5121,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/API\/EventAPI.swift",
       "kind": "StringLiteral",
-      "offset": 5144,
+      "offset": 5145,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/API\/EventAPI.swift",
       "kind": "StringLiteral",
-      "offset": 5263,
+      "offset": 5264,
       "length": 17,
       "value": "\"startingOrderBy\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/API\/EventAPI.swift",
       "kind": "StringLiteral",
-      "offset": 5289,
+      "offset": 5290,
       "length": 20,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/API\/EventAPI.swift",
       "kind": "StringLiteral",
-      "offset": 5308,
+      "offset": 5309,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/API\/EventAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 5362,
+      "offset": 5363,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/API\/EventAPI.swift",
       "kind": "StringLiteral",
-      "offset": 5422,
+      "offset": 5423,
       "length": 11,
       "value": "\"isPopular\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Feature\/List Events\/API\/EventAPI.swift",
       "kind": "StringLiteral",
-      "offset": 5442,
+      "offset": 5443,
       "length": 6,
       "value": "\"true\""
     },
@@ -92706,6 +93142,55 @@
       "offset": 1170,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/PazaramaRadioButton.swift",
+      "kind": "StringLiteral",
+      "offset": 249,
+      "length": 23,
+      "value": "\"icon_pzrm_rb_selected\""
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/PazaramaRadioButton.swift",
+      "kind": "StringLiteral",
+      "offset": 324,
+      "length": 27,
+      "value": "\"icon_pzrm_rb_not_selected\""
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/PazaramaRadioButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 392,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/PazaramaRadioButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1183,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/PazaramaRadioButton.swift",
+      "kind": "StringLiteral",
+      "offset": 1255,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/PazaramaRadioButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1409,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/PazaramaRadioButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1415,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Products UI\/Controllers\/EventProductsRefreshController.swift",
@@ -93808,99 +94293,134 @@
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Views\/EventFilterCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 277,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Views\/EventFilterCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 334,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Views\/EventFilterCell.swift",
       "kind": "StringLiteral",
-      "offset": 381,
+      "offset": 581,
       "length": 46,
       "value": "\"EventFilter.Interest.\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Views\/EventFilterCell.swift",
       "kind": "StringLiteral",
-      "offset": 426,
+      "offset": 626,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Views\/EventFilterCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 570,
+      "offset": 770,
       "length": 3,
       "value": "155"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Views\/EventFilterCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 582,
+      "offset": 782,
       "length": 3,
       "value": "155"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Views\/EventFilterCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 593,
+      "offset": 793,
       "length": 3,
       "value": "155"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Views\/EventFilterCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 728,
+      "offset": 928,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Views\/EventFilterCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 971,
+      "offset": 1171,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Views\/EventFilterCell.swift",
       "kind": "StringLiteral",
-      "offset": 1543,
+      "offset": 1957,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Views\/EventFilterCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1940,
+      "offset": 2398,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Views\/EventFilterCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 2018,
+      "offset": 2476,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Views\/EventFilterCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 2292,
+      "offset": 2750,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Views\/EventFilterCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 2411,
+      "offset": 2869,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Views\/EventFilterCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 2430,
+      "offset": 2888,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Views\/EventFilterCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 2450,
+      "offset": 2908,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Views\/EventFilterCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3033,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Views\/EventFilterCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3052,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Event Filters UI\/Views\/EventFilterCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3072,
       "length": 2,
       "value": "20"
     },

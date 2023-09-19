@@ -881,6 +881,8 @@ extension ClickmeliveiOSSDK.PlayerView : AmazonIVSPlayer.IVSPlayer.Delegate {
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class ViewerCountView : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) final public let viewerStackView: UIKit.UIStackView
   @_Concurrency.MainActor(unsafe) final public let ivViewers: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) final public let lblLiveIconView: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) final public let lblLivePazarama: UIKit.UILabel
   @_Concurrency.MainActor(unsafe) final public let lblLive: UIKit.UILabel
   @_Concurrency.MainActor(unsafe) final public let lblViewerCount: UIKit.UILabel
   @objc deinit
@@ -1773,7 +1775,7 @@ final public class URLSessionHTTPClient : ClickmeliveiOSSDK.HTTPClient {
   @objc deinit
 }
 @objc @_Concurrency.MainActor(unsafe) final public class EventFilterCellController : ObjectiveC.NSObject, UIKit.UITableViewDataSource, UIKit.UITableViewDelegate {
-  @_Concurrency.MainActor(unsafe) public init(viewModel: ClickmeliveiOSSDK.EventFilterItemViewModel)
+  @_Concurrency.MainActor(unsafe) public init(viewModel: ClickmeliveiOSSDK.EventFilterItemViewModel, isSortCell: Swift.Bool = false)
   @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
   @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
   @_Concurrency.MainActor(unsafe) @objc final public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
@@ -1896,6 +1898,9 @@ public class RemoteClient<Resource> {
   }
   public static func map(_ data: Foundation.Data, from response: Foundation.HTTPURLResponse) throws -> ClickmeliveiOSSDK.Event
   @objc deinit
+}
+public protocol Checkbox : UIKit.UIView {
+  func setSelected(_ selected: Swift.Bool)
 }
 public struct Live : Swift.Hashable {
   public let groupId: Swift.Int

@@ -109,6 +109,9 @@ public protocol SDKPIPFunctions {
   public static func makeEventProductsViewController(event: ClickmeliveiOSSDK.Event?, bottomSheetHeight: ClickmeliveiOSSDK.BottomSheetHeight, cellType: ClickmeliveiOSSDK.EventProductCellType, events: [ClickmeliveiOSSDK.Event], selectedIndexPath: Foundation.IndexPath, rootNavigationController: UIKit.UINavigationController?) -> ClickmeliveiOSSDK.EventProductsViewController
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class BanView : UIKit.UIView {
+  @objc deinit
+}
 @_inheritsConvenienceInitializers final public class RemoteEventLogger : ClickmeliveiOSSDK.RemoteClient<Foundation.Data>, ClickmeliveiOSSDK.EventLogger {
   final public func event(name: Swift.String, userId: Swift.String, eventId: Swift.Int)
   final public func share(userId: Swift.Int, eventId: Swift.Int)
@@ -257,6 +260,7 @@ public protocol HTTPClient {
 }
 extension ClickmeliveiOSSDK.FeedCellController {
   @_Concurrency.MainActor(unsafe) final public func player() -> AmazonIVSPlayer.IVSPlayer?
+  @_Concurrency.MainActor(unsafe) final public func bgImage() -> UIKit.UIImage?
 }
 extension ClickmeliveiOSSDK.FeedCellController {
   @_Concurrency.MainActor(unsafe) final public func statusChanged(with status: ClickmeliveiOSSDK.Event.EventStatus)
@@ -271,6 +275,10 @@ extension ClickmeliveiOSSDK.FeedCellController {
 extension ClickmeliveiOSSDK.FeedCellController {
   @_Concurrency.MainActor(unsafe) final public func clearChat()
   @_Concurrency.MainActor(unsafe) final public func display(controllers: [ClickmeliveiOSSDK.TableCellController])
+  @_Concurrency.MainActor(unsafe) final public func onBanEventRecieved(isBanned: Swift.Bool)
+}
+extension ClickmeliveiOSSDK.FeedCellController {
+  @_Concurrency.MainActor(unsafe) final public func updateDiscoverItems(controllers: [ClickmeliveiOSSDK.EventCellController])
 }
 @frozen public enum Size : Swift.Double {
   case SMALL
@@ -482,6 +490,10 @@ public struct Message : Swift.Hashable {
     case SHARE
     case BASKET
     case KVKK
+    case BAN
+    case BAN_RECONNECT
+    case UNBAN
+    case DELETE
     public init?(rawValue: Swift.String)
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
@@ -1084,6 +1096,9 @@ public struct ProductResponseDTO : Swift.Codable {
   @_Concurrency.MainActor(unsafe) final public func displayChat(controllers: [ClickmeliveiOSSDK.TableCellController])
 }
 extension ClickmeliveiOSSDK.FeedViewController {
+  @_Concurrency.MainActor(unsafe) final public func updateDiscoverItems(controllers: [ClickmeliveiOSSDK.EventCellController])
+}
+extension ClickmeliveiOSSDK.FeedViewController {
   @_Concurrency.MainActor(unsafe) final public func enterPIPModeConfig()
   @_Concurrency.MainActor(unsafe) final public func enterFullScreenConfig()
 }
@@ -1338,6 +1353,7 @@ public struct Event : Swift.Hashable {
   public var merchant: Swift.String {
     get
   }
+  public var isUserBannedFromChat: Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ClickmeliveiOSSDK.Event, b: ClickmeliveiOSSDK.Event) -> Swift.Bool
   public var hashValue: Swift.Int {
@@ -1455,6 +1471,10 @@ final public class EventViewModel {
     get
   }
   final public var tapToJoinTitle: Swift.String {
+    get
+  }
+  final public func setUserBannedFromChat(isBanned: Swift.Bool)
+  final public var isUserBannedFromChat: Swift.Bool {
     get
   }
   @objc deinit
@@ -2159,6 +2179,7 @@ final public class ChatViewModel {
   public init(chatLoader: ClickmeliveiOSSDK.ChatLoader)
   final public var messagesQueue: ClickmeliveiOSSDK.Queue<ClickmeliveiOSSDK.Message>
   final public var onMessageReceived: ClickmeliveiOSSDK.ChatViewModel.Observer<[ClickmeliveiOSSDK.Message]>?
+  final public var onBanEventReceived: ClickmeliveiOSSDK.ChatViewModel.Observer<Swift.Bool>?
   final public func listenChatMessages(event: ClickmeliveiOSSDK.Event)
   final public func disconnect()
   final public var enterMessage: Swift.String {

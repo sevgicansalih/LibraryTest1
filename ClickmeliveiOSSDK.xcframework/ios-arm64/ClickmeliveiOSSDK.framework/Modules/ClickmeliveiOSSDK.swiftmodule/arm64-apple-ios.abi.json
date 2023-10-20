@@ -81918,64 +81918,71 @@
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/ChatCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 390,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/ChatCell.swift",
       "kind": "FloatLiteral",
-      "offset": 341,
+      "offset": 435,
       "length": 4,
       "value": "15.5"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/ChatCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 503,
+      "offset": 607,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/ChatCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 596,
+      "offset": 753,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/ChatCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 757,
+      "offset": 914,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/ChatCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 824,
+      "offset": 981,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/ChatCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 896,
+      "offset": 1106,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/ChatCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1201,
+      "offset": 1411,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/ChatCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1207,
+      "offset": 1417,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/ChatCell.swift",
       "kind": "StringLiteral",
-      "offset": 1339,
+      "offset": 1549,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },

@@ -30837,6 +30837,48 @@
                     "accessorKind": "get"
                   }
                 ]
+              },
+              {
+                "kind": "Var",
+                "name": "enterMessagePazarama",
+                "printedName": "enterMessagePazarama",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:17ClickmeliveiOSSDK9LocalizedC4ChatO20enterMessagePazaramaSSvpZ",
+                "mangledName": "$s17ClickmeliveiOSSDK9LocalizedC4ChatO20enterMessagePazaramaSSvpZ",
+                "moduleName": "ClickmeliveiOSSDK",
+                "static": true,
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17ClickmeliveiOSSDK9LocalizedC4ChatO20enterMessagePazaramaSSvgZ",
+                    "mangledName": "$s17ClickmeliveiOSSDK9LocalizedC4ChatO20enterMessagePazaramaSSvgZ",
+                    "moduleName": "ClickmeliveiOSSDK",
+                    "static": true,
+                    "accessorKind": "get"
+                  }
+                ]
               }
             ],
             "declKind": "Enum",
@@ -70637,8 +70679,43 @@
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/ComposeMessageView.swift",
+      "kind": "FloatLiteral",
+      "offset": 349,
+      "length": 5,
+      "value": "0.893"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/ComposeMessageView.swift",
+      "kind": "FloatLiteral",
+      "offset": 363,
+      "length": 5,
+      "value": "0.893"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/ComposeMessageView.swift",
+      "kind": "FloatLiteral",
+      "offset": 376,
+      "length": 5,
+      "value": "0.908"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/ComposeMessageView.swift",
       "kind": "IntegerLiteral",
-      "offset": 426,
+      "offset": 390,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/ComposeMessageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 596,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/ComposeMessageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 825,
       "length": 2,
       "value": "12"
     },
@@ -72507,35 +72584,35 @@
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/ChatCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 607,
+      "offset": 608,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/ChatCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 753,
+      "offset": 754,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/ChatCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 914,
+      "offset": 915,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/ChatCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 981,
+      "offset": 982,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/ChatCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1106,
+      "offset": 1107,
       "length": 1,
       "value": "0"
     },
@@ -76328,141 +76405,141 @@
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/HorizontalChatCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 250,
+      "length": 5,
+      "value": "0.004"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/HorizontalChatCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 264,
+      "length": 5,
+      "value": "0.212"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/HorizontalChatCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 277,
+      "length": 5,
+      "value": "0.957"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/HorizontalChatCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 291,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/HorizontalChatCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 351,
+      "length": 5,
+      "value": "0.729"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/HorizontalChatCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 254,
+      "offset": 365,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/HorizontalChatCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 374,
+      "length": 5,
+      "value": "0.397"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/HorizontalChatCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 388,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/HorizontalChatCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 447,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/HorizontalChatCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 457,
+      "length": 5,
+      "value": "0.741"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/HorizontalChatCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 470,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/HorizontalChatCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 480,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/HorizontalChatCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 542,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/HorizontalChatCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 265,
-      "length": 3,
-      "value": "177"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/HorizontalChatCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 276,
-      "length": 3,
-      "value": "218"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/HorizontalChatCell.swift",
-      "kind": "FloatLiteral",
-      "offset": 300,
-      "length": 3,
-      "value": "0.3"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/HorizontalChatCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 364,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/HorizontalChatCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 376,
-      "length": 3,
-      "value": "121"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/HorizontalChatCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 387,
-      "length": 2,
-      "value": "46"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/HorizontalChatCell.swift",
-      "kind": "FloatLiteral",
-      "offset": 410,
-      "length": 3,
-      "value": "0.3"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/HorizontalChatCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 473,
-      "length": 3,
-      "value": "212"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/HorizontalChatCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 485,
-      "length": 3,
-      "value": "252"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/HorizontalChatCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 496,
-      "length": 2,
-      "value": "53"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/HorizontalChatCell.swift",
-      "kind": "FloatLiteral",
-      "offset": 519,
-      "length": 3,
-      "value": "0.3"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/HorizontalChatCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 581,
-      "length": 2,
-      "value": "48"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/HorizontalChatCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 592,
+      "offset": 553,
       "length": 2,
       "value": "82"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/HorizontalChatCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 602,
+      "offset": 563,
       "length": 3,
       "value": "218"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/HorizontalChatCell.swift",
       "kind": "FloatLiteral",
-      "offset": 626,
+      "offset": 587,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/HorizontalChatCell.swift",
       "kind": "FloatLiteral",
-      "offset": 687,
+      "offset": 648,
       "length": 5,
       "value": "0.969"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/HorizontalChatCell.swift",
       "kind": "FloatLiteral",
-      "offset": 701,
+      "offset": 662,
       "length": 5,
       "value": "0.969"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/HorizontalChatCell.swift",
       "kind": "FloatLiteral",
-      "offset": 714,
+      "offset": 675,
       "length": 5,
       "value": "0.969"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/HorizontalChatCell.swift",
       "kind": "FloatLiteral",
-      "offset": 728,
+      "offset": 689,
       "length": 3,
       "value": "0.8"
     },
@@ -77833,29 +77910,29 @@
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/VerticalChatCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 265,
-      "length": 3,
-      "value": "247"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/VerticalChatCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 277,
-      "length": 3,
-      "value": "247"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/VerticalChatCell.swift",
-      "kind": "IntegerLiteral",
-      "offset": 288,
-      "length": 3,
-      "value": "247"
+      "kind": "FloatLiteral",
+      "offset": 261,
+      "length": 5,
+      "value": "0.969"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/VerticalChatCell.swift",
       "kind": "FloatLiteral",
-      "offset": 312,
+      "offset": 275,
+      "length": 5,
+      "value": "0.969"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/VerticalChatCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 288,
+      "length": 5,
+      "value": "0.969"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/Cell\/VerticalChatCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 302,
       "length": 3,
       "value": "0.8"
     },

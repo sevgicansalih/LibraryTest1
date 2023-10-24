@@ -957,6 +957,9 @@ extension ClickmeliveiOSSDK.Localized {
     public static var enterMessage: Swift.String {
       get
     }
+    public static var enterMessagePazarama: Swift.String {
+      get
+    }
   }
 }
 public func getGuestId() -> Swift.String?

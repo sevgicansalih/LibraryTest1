@@ -22,6 +22,7 @@ let package = Package(
 //        .package(url: "https://github.com/SDWebImage/SDWebImage.git", exact: "5.15.2"),
         .package(url: "https://github.com/daltoniam/Starscream.git", from: "4.0.0"),
         .package(url: "https://github.com/airbnb/lottie-spm.git", Version("4.2.0")...Version("4.2.0")),
+        .package(url: "https://github.com/Daltron/NotificationBanner", from: "3.2.1"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -42,6 +43,7 @@ let package = Package(
 //                .product(name: "SDWebImage", package: "SDWebImage"),
                 .product(name: "Starscream", package: "Starscream"),
                 .product(name: "Lottie", package: "lottie-spm"),
+                .product(name: "NotificationBannerSwift", package: "NotificationBanner"),
 //                .product(name: "PIPKit", package: "PIPKit"),
                 .target(name: "AmazonIVSPlayer", condition: .when(platforms: [.iOS])),
                 .target(name: "PIPKit", condition: .when(platforms: [.iOS])),

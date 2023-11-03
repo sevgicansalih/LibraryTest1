@@ -81591,36 +81591,43 @@
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/StreamInfoViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1976,
-      "length": 32,
-      "value": "\"StreamInfoView.InfoDescription\""
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/StreamInfoViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2170,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/StreamInfoViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2255,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/StreamInfoViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2285,
+      "offset": 1978,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/StreamInfoViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2354,
+      "offset": 2023,
+      "length": 32,
+      "value": "\"StreamInfoView.InfoDescription\""
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/StreamInfoViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2217,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/StreamInfoViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2302,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/StreamInfoViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2332,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/StreamInfoViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2401,
       "length": 7,
       "value": "\"Tamam\""
     },

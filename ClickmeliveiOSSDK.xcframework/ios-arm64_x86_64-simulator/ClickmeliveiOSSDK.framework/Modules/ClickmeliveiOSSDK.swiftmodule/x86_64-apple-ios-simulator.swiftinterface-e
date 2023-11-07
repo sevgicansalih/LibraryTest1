@@ -276,7 +276,7 @@ extension ClickmeliveiOSSDK.FeedCellController {
   @_Concurrency.MainActor(unsafe) final public func bgImage() -> UIKit.UIImage?
 }
 extension ClickmeliveiOSSDK.FeedCellController {
-  @_Concurrency.MainActor(unsafe) final public func statusChanged(with status: ClickmeliveiOSSDK.Event.EventStatus)
+  @_Concurrency.MainActor(unsafe) final public func statusChanged(with status: ClickmeliveiOSSDK.Event.EventStatus, enforceChange: Swift.Bool = false)
 }
 extension ClickmeliveiOSSDK.FeedCellController {
   @_Concurrency.MainActor(unsafe) final public func updateViewerCount(_ viewModel: ClickmeliveiOSSDK.ViewerCountViewModel)

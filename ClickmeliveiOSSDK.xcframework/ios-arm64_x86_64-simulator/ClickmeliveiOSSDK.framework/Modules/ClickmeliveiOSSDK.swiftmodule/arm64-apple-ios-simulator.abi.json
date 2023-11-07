@@ -73135,29 +73135,57 @@
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/BanView.swift",
+      "kind": "FloatLiteral",
+      "offset": 423,
+      "length": 5,
+      "value": "0.286"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/BanView.swift",
+      "kind": "FloatLiteral",
+      "offset": 437,
+      "length": 5,
+      "value": "0.314"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/BanView.swift",
+      "kind": "FloatLiteral",
+      "offset": 450,
+      "length": 5,
+      "value": "0.341"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/BanView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 464,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/BanView.swift",
       "kind": "BooleanLiteral",
-      "offset": 758,
+      "offset": 846,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/BanView.swift",
       "kind": "IntegerLiteral",
-      "offset": 797,
+      "offset": 885,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/BanView.swift",
       "kind": "IntegerLiteral",
-      "offset": 997,
+      "offset": 1085,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Views\/View\/BanView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1064,
+      "offset": 1165,
       "length": 1,
       "value": "0"
     },

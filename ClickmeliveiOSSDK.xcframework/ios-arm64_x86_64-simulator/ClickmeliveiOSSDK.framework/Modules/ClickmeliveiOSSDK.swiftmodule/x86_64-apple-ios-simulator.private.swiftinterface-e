@@ -201,7 +201,6 @@ extension ClickmeliveiOSSDK.EventCell {
   @_Concurrency.MainActor(unsafe) final public let dateView: UIKit.UIView
   @_Concurrency.MainActor(unsafe) final public let lblDate: UIKit.UILabel
   @_Concurrency.MainActor(unsafe) final public let ivDate: UIKit.UIImageView
-  @_Concurrency.MainActor(unsafe) final public let ivSpecialOffer: UIKit.UIImageView
   @_Concurrency.MainActor(unsafe) final public let ivPlay: UIKit.UIImageView
   @_Concurrency.MainActor(unsafe) final public let viewerCountView: ClickmeliveiOSSDK.ViewerCountView
   @_Concurrency.MainActor(unsafe) public func setupViews()
@@ -1666,7 +1665,6 @@ public protocol TokenStore {
   @_Concurrency.MainActor(unsafe) final public let sellerStackView: UIKit.UIStackView
   @_Concurrency.MainActor(unsafe) final public let ivSeller: UIKit.UIImageView
   @_Concurrency.MainActor(unsafe) final public let lblUsername: UIKit.UILabel
-  @_Concurrency.MainActor(unsafe) final public let ivSpecialOffer: UIKit.UIImageView
   @_Concurrency.MainActor(unsafe) public func setupViews()
   @_Concurrency.MainActor(unsafe) public func setupLayout()
   @objc deinit

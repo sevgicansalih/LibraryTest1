@@ -460,20 +460,6 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
           }
         ]
       },
@@ -1548,20 +1534,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -1783,20 +1755,6 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
           },
           {
             "kind": "Conformance",
@@ -2219,20 +2177,6 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
           },
           {
             "kind": "Conformance",
@@ -3229,20 +3173,6 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
           },
           {
             "kind": "Conformance",
@@ -5692,20 +5622,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -7272,20 +7188,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -8314,20 +8216,6 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
           },
           {
             "kind": "Conformance",
@@ -10989,20 +10877,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -12171,20 +12045,6 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
           },
           {
             "kind": "Conformance",
@@ -13359,20 +13219,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -13677,20 +13523,6 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
           },
           {
             "kind": "Conformance",
@@ -15450,20 +15282,6 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
           },
           {
             "kind": "Conformance",
@@ -17549,20 +17367,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -17728,20 +17532,6 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
           },
           {
             "kind": "Conformance",
@@ -18085,20 +17875,6 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
           },
           {
             "kind": "Conformance",
@@ -21131,20 +20907,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -22289,20 +22051,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -22390,20 +22138,6 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
           },
           {
             "kind": "Conformance",
@@ -22694,20 +22428,6 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
           },
           {
             "kind": "Conformance",
@@ -25016,20 +24736,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -26034,20 +25740,6 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
           },
           {
             "kind": "Conformance",
@@ -27295,20 +26987,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -27706,20 +27384,6 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
           },
           {
             "kind": "Conformance",
@@ -35778,20 +35442,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -36266,20 +35916,6 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
           },
           {
             "kind": "Conformance",
@@ -42408,20 +42044,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -46600,20 +46222,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -46994,20 +46602,6 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
           },
           {
             "kind": "Conformance",
@@ -47739,20 +47333,6 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
           },
           {
             "kind": "Conformance",
@@ -48863,20 +48443,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -49208,20 +48774,6 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
           },
           {
             "kind": "Conformance",
@@ -49621,20 +49173,6 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
           },
           {
             "kind": "Conformance",
@@ -50979,20 +50517,6 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
           },
           {
             "kind": "Conformance",
@@ -55714,20 +55238,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -56667,20 +56177,6 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
           },
           {
             "kind": "Conformance",
@@ -61760,20 +61256,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -66561,20 +66043,13 @@
       },
       {
         "kind": "Import",
-        "name": "NotificationBannerSwift",
-        "printedName": "NotificationBannerSwift",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "ClickmeliveiOSSDK",
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ClickmeliveiOSSDK"
       },
       {
         "kind": "Import",
@@ -69010,20 +68485,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -70149,20 +69610,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -70652,20 +70099,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -71074,20 +70507,6 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
           },
           {
             "kind": "Conformance",
@@ -71955,20 +71374,6 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
           }
         ]
       },
@@ -72095,20 +71500,6 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConstraintRelatableTarget",
-            "printedName": "ConstraintRelatableTarget",
-            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
-            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LayoutConstraintItem",
-            "printedName": "LayoutConstraintItem",
-            "usr": "s:7SnapKit20LayoutConstraintItemP",
-            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
           },
           {
             "kind": "Conformance",
@@ -81796,13 +81187,6 @@
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/RatingView.swift",
       "kind": "IntegerLiteral",
       "offset": 383,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Shared\/Helpers\/NotificationBannerService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 300,
       "length": 1,
       "value": "8"
     },

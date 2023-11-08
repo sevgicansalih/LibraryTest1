@@ -9,7 +9,6 @@ import Combine
 import CoreMedia
 import Foundation
 import Lottie
-import NotificationBannerSwift
 import PIPKit
 import SDWebImage
 import Starscream

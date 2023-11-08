@@ -9,6 +9,3 @@ Used Dependency versions (02.11.2023)
 - Pipkit 1.0.7 (master)
 - SDWebImage 5.15.2
 - AmazonIVSPlayer 1.19.0
-- NotificationBanner 3.2.1
-    - SnapKit 5.6.0
-    - MarqueeLabel 4.4.0 

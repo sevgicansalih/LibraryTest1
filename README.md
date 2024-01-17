@@ -8,4 +8,4 @@ Used Dependency versions (02.11.2023)
 - Starscream 4.0.6
 - Pipkit 1.0.7 (master)
 - SDWebImage 5.15.2
-- AmazonIVSPlayer 1.19.0
+- AmazonIVSPlayer 1.23.0

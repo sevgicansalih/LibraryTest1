@@ -1089,7 +1089,7 @@ final public class DiscoverViewModel {
   @_Concurrency.MainActor(unsafe) @objc override final public func viewWillDisappear(_ animated: Swift.Bool)
   @objc deinit
   @_Concurrency.MainActor(unsafe) @objc override final public func loadView()
-  @_Concurrency.MainActor(unsafe) final public func display(_ sections: [ClickmeliveiOSSDK.CollectionCellController]...)
+  @_Concurrency.MainActor(unsafe) final public func display(_ sections: [ClickmeliveiOSSDK.CollectionCellController]..., isRefresh: Swift.Bool)
 }
 extension ClickmeliveiOSSDK.DiscoverViewController {
   @_Concurrency.MainActor(unsafe) final public func updateEventProducts(viewModels: [ClickmeliveiOSSDK.ProductViewModel])

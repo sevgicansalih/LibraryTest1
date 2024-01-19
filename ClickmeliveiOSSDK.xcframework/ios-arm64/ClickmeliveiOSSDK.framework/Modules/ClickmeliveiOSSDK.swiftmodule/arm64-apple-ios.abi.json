@@ -33034,7 +33034,7 @@
           {
             "kind": "Function",
             "name": "display",
-            "printedName": "display(_:)",
+            "printedName": "display(_:isRefresh:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -33062,11 +33062,17 @@
                   }
                 ],
                 "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:17ClickmeliveiOSSDK22DiscoverViewControllerC7displayyySayAA014CollectionCellE0VGd_tF",
-            "mangledName": "$s17ClickmeliveiOSSDK22DiscoverViewControllerC7displayyySayAA014CollectionCellE0VGd_tF",
+            "usr": "s:17ClickmeliveiOSSDK22DiscoverViewControllerC7display_9isRefreshySayAA014CollectionCellE0VGd_SbtF",
+            "mangledName": "$s17ClickmeliveiOSSDK22DiscoverViewControllerC7display_9isRefreshySayAA014CollectionCellE0VGd_SbtF",
             "moduleName": "ClickmeliveiOSSDK",
             "declAttributes": [
               "Custom",
@@ -76725,21 +76731,21 @@
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "IntegerLiteral",
-      "offset": 31418,
+      "offset": 31440,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "IntegerLiteral",
-      "offset": 31429,
+      "offset": 31451,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "BooleanLiteral",
-      "offset": 32675,
+      "offset": 32697,
       "length": 5,
       "value": "false"
     },
@@ -89388,7 +89394,7 @@
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Controllers\/DiscoverViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4266,
+      "offset": 4283,
       "length": 5,
       "value": "false"
     },
@@ -89402,77 +89408,77 @@
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Controllers\/DiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5591,
+      "offset": 5672,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Controllers\/DiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5746,
+      "offset": 5827,
       "length": 70,
       "value": "\"try reloading Discover VC \""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Controllers\/DiscoverViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5815,
+      "offset": 5896,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Controllers\/DiscoverViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6311,
+      "offset": 6392,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Controllers\/DiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6636,
+      "offset": 6717,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Controllers\/DiscoverViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6772,
+      "offset": 6853,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Controllers\/DiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7327,
+      "offset": 7408,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Controllers\/DiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7521,
+      "offset": 7602,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Controllers\/DiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7688,
+      "offset": 7769,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Controllers\/DiscoverViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7853,
+      "offset": 7934,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Discover UI\/Controllers\/DiscoverViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13735,
+      "offset": 13816,
       "length": 1,
       "value": "1"
     },
@@ -92405,49 +92411,49 @@
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/DiscoverAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 2591,
+      "offset": 2608,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/DiscoverAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 2603,
+      "offset": 2620,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/DiscoverAdapter.swift",
       "kind": "BooleanLiteral",
-      "offset": 2789,
+      "offset": 2806,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/DiscoverAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 4010,
+      "offset": 4027,
       "length": 18,
       "value": "\"Event.View.Start\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/DiscoverAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 4202,
+      "offset": 4219,
       "length": 18,
       "value": "\"Event.View.Pause\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/DiscoverAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 4516,
+      "offset": 4533,
       "length": 18,
       "value": "\"Event.View.Start\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/DiscoverAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 4710,
+      "offset": 4727,
       "length": 18,
       "value": "\"Event.View.Pause\""
     },

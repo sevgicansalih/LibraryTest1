@@ -89729,43 +89729,50 @@
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19934,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20267,
+      "offset": 20312,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20428,
+      "offset": 20473,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20778,
+      "offset": 20823,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20804,
+      "offset": 20849,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20888,
+      "offset": 20933,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21105,
+      "offset": 21150,
       "length": 1,
       "value": "0"
     },

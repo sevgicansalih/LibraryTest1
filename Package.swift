@@ -46,7 +46,7 @@ let package = Package(
 //                .product(name: "NotificationBannerSwift", package: "NotificationBanner"),
 //                .product(name: "PIPKit", package: "PIPKit"),
                 .target(name: "AmazonIVSPlayer", condition: .when(platforms: [.iOS])),
-                .target(name: "PIPKit", condition: .when(platforms: [.iOS])),
+//                .target(name: "PIPKit", condition: .when(platforms: [.iOS])),
                 .target(name: "SDWebImage", condition: .when(platforms: [.iOS]))
             ],
             path: "ClickmeliveiOSSDKWrapper"
@@ -56,7 +56,7 @@ let package = Package(
             dependencies: ["LibraryTest1"]),
         .binaryTarget(name: "AmazonIVSPlayer", path: "AmazonIVSPlayer.xcframework"),
         .binaryTarget(name: "ClickmeliveiOSSDK", path: "ClickmeliveiOSSDK.xcframework"),
-        .binaryTarget(name: "PIPKit", path: "PIPKit.xcframework"),
+//        .binaryTarget(name: "PIPKit", path: "PIPKit.xcframework"),
         .binaryTarget(name: "SDWebImage", path: "SDWebImage.xcframework")
         
     ]

@@ -10,7 +10,6 @@ import CoreMedia
 import DeveloperToolsSupport
 import Foundation
 import Lottie
-import PIPKit
 import SDWebImage
 import Starscream
 import Swift
@@ -704,6 +703,41 @@ extension ClickmeliveiOSSDK.Localized {
     }
   }
 }
+public struct PIPCorner {
+}
+public enum PIPState {
+  case pip
+  case full
+  public static func == (a: ClickmeliveiOSSDK.PIPState, b: ClickmeliveiOSSDK.PIPState) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum PIPPosition {
+  case topLeft
+  case middleLeft
+  case bottomLeft
+  case topRight
+  case middleRight
+  case bottomRight
+  public static func == (a: ClickmeliveiOSSDK.PIPPosition, b: ClickmeliveiOSSDK.PIPPosition) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum _PIPState {
+  case none
+  case pip
+  case full
+  case exit
+  public static func == (a: ClickmeliveiOSSDK._PIPState, b: ClickmeliveiOSSDK._PIPState) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public struct Success {
 }
 extension UIKit.UIView {
@@ -1179,17 +1213,17 @@ extension ClickmeliveiOSSDK.FeedViewController : UIKit.UICollectionViewDelegateF
 extension ClickmeliveiOSSDK.FeedViewController {
   @_Concurrency.MainActor(unsafe) final public func updateEventProducts(viewModels: [ClickmeliveiOSSDK.ProductViewModel])
 }
-extension ClickmeliveiOSSDK.FeedViewController : PIPUsable {
-  @_Concurrency.MainActor(unsafe) final public var initialState: PIPState {
+extension ClickmeliveiOSSDK.FeedViewController {
+  @_Concurrency.MainActor(unsafe) final public var initialState: ClickmeliveiOSSDK.PIPState {
     get
   }
-  @_Concurrency.MainActor(unsafe) final public var initialPosition: PIPPosition {
+  @_Concurrency.MainActor(unsafe) final public var initialPosition: ClickmeliveiOSSDK.PIPPosition {
     get
   }
   @_Concurrency.MainActor(unsafe) final public var pipSize: CoreFoundation.CGSize {
     get
   }
-  @_Concurrency.MainActor(unsafe) final public var pipCorner: PIPCorner? {
+  @_Concurrency.MainActor(unsafe) final public var pipCorner: ClickmeliveiOSSDK.PIPCorner? {
     get
   }
   @_Concurrency.MainActor(unsafe) final public func onMinimizeTapped()
@@ -2453,6 +2487,12 @@ extension ClickmeliveiOSSDK.InterestsEventCountMapper.Error : Swift.Hashable {}
 extension ClickmeliveiOSSDK.HTTPMethod : Swift.Equatable {}
 extension ClickmeliveiOSSDK.HTTPMethod : Swift.Hashable {}
 extension ClickmeliveiOSSDK.HTTPMethod : Swift.RawRepresentable {}
+extension ClickmeliveiOSSDK.PIPState : Swift.Equatable {}
+extension ClickmeliveiOSSDK.PIPState : Swift.Hashable {}
+extension ClickmeliveiOSSDK.PIPPosition : Swift.Equatable {}
+extension ClickmeliveiOSSDK.PIPPosition : Swift.Hashable {}
+extension ClickmeliveiOSSDK._PIPState : Swift.Equatable {}
+extension ClickmeliveiOSSDK._PIPState : Swift.Hashable {}
 extension ClickmeliveiOSSDK.HomePageViewController.HomeAction : Swift.Equatable {}
 extension ClickmeliveiOSSDK.HomePageViewController.HomeAction : Swift.Hashable {}
 extension ClickmeliveiOSSDK.HomePageViewController.HomeAction : Swift.Sendable {}

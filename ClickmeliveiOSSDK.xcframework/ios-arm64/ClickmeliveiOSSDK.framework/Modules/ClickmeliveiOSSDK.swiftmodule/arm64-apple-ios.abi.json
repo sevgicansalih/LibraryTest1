@@ -1902,13 +1902,6 @@
       },
       {
         "kind": "Import",
-        "name": "PIPKit",
-        "printedName": "PIPKit",
-        "declKind": "Import",
-        "moduleName": "ClickmeliveiOSSDK"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -2224,13 +2217,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "PIPKit",
-        "printedName": "PIPKit",
-        "declKind": "Import",
-        "moduleName": "ClickmeliveiOSSDK"
       },
       {
         "kind": "Import",
@@ -4715,6 +4701,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ClickmeliveiOSSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ClickmeliveiOSSDK"
       },
       {
         "kind": "Import",
@@ -20749,6 +20752,857 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ClickmeliveiOSSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ClickmeliveiOSSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PIPCorner",
+        "printedName": "PIPCorner",
+        "declKind": "Struct",
+        "usr": "s:17ClickmeliveiOSSDK9PIPCornerV",
+        "mangledName": "$s17ClickmeliveiOSSDK9PIPCornerV",
+        "moduleName": "ClickmeliveiOSSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PIPState",
+        "printedName": "PIPState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "pip",
+            "printedName": "pip",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ClickmeliveiOSSDK.PIPState.Type) -> ClickmeliveiOSSDK.PIPState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PIPState",
+                    "printedName": "ClickmeliveiOSSDK.PIPState",
+                    "usr": "s:17ClickmeliveiOSSDK8PIPStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ClickmeliveiOSSDK.PIPState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PIPState",
+                        "printedName": "ClickmeliveiOSSDK.PIPState",
+                        "usr": "s:17ClickmeliveiOSSDK8PIPStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17ClickmeliveiOSSDK8PIPStateO3pipyA2CmF",
+            "mangledName": "$s17ClickmeliveiOSSDK8PIPStateO3pipyA2CmF",
+            "moduleName": "ClickmeliveiOSSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "full",
+            "printedName": "full",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ClickmeliveiOSSDK.PIPState.Type) -> ClickmeliveiOSSDK.PIPState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PIPState",
+                    "printedName": "ClickmeliveiOSSDK.PIPState",
+                    "usr": "s:17ClickmeliveiOSSDK8PIPStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ClickmeliveiOSSDK.PIPState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PIPState",
+                        "printedName": "ClickmeliveiOSSDK.PIPState",
+                        "usr": "s:17ClickmeliveiOSSDK8PIPStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17ClickmeliveiOSSDK8PIPStateO4fullyA2CmF",
+            "mangledName": "$s17ClickmeliveiOSSDK8PIPStateO4fullyA2CmF",
+            "moduleName": "ClickmeliveiOSSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PIPState",
+                "printedName": "ClickmeliveiOSSDK.PIPState",
+                "usr": "s:17ClickmeliveiOSSDK8PIPStateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PIPState",
+                "printedName": "ClickmeliveiOSSDK.PIPState",
+                "usr": "s:17ClickmeliveiOSSDK8PIPStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17ClickmeliveiOSSDK8PIPStateO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s17ClickmeliveiOSSDK8PIPStateO2eeoiySbAC_ACtFZ",
+            "moduleName": "ClickmeliveiOSSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ClickmeliveiOSSDK8PIPStateO9hashValueSivp",
+            "mangledName": "$s17ClickmeliveiOSSDK8PIPStateO9hashValueSivp",
+            "moduleName": "ClickmeliveiOSSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ClickmeliveiOSSDK8PIPStateO9hashValueSivg",
+                "mangledName": "$s17ClickmeliveiOSSDK8PIPStateO9hashValueSivg",
+                "moduleName": "ClickmeliveiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17ClickmeliveiOSSDK8PIPStateO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s17ClickmeliveiOSSDK8PIPStateO4hash4intoys6HasherVz_tF",
+            "moduleName": "ClickmeliveiOSSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17ClickmeliveiOSSDK8PIPStateO",
+        "mangledName": "$s17ClickmeliveiOSSDK8PIPStateO",
+        "moduleName": "ClickmeliveiOSSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PIPPosition",
+        "printedName": "PIPPosition",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "topLeft",
+            "printedName": "topLeft",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ClickmeliveiOSSDK.PIPPosition.Type) -> ClickmeliveiOSSDK.PIPPosition",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PIPPosition",
+                    "printedName": "ClickmeliveiOSSDK.PIPPosition",
+                    "usr": "s:17ClickmeliveiOSSDK11PIPPositionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ClickmeliveiOSSDK.PIPPosition.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PIPPosition",
+                        "printedName": "ClickmeliveiOSSDK.PIPPosition",
+                        "usr": "s:17ClickmeliveiOSSDK11PIPPositionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17ClickmeliveiOSSDK11PIPPositionO7topLeftyA2CmF",
+            "mangledName": "$s17ClickmeliveiOSSDK11PIPPositionO7topLeftyA2CmF",
+            "moduleName": "ClickmeliveiOSSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "middleLeft",
+            "printedName": "middleLeft",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ClickmeliveiOSSDK.PIPPosition.Type) -> ClickmeliveiOSSDK.PIPPosition",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PIPPosition",
+                    "printedName": "ClickmeliveiOSSDK.PIPPosition",
+                    "usr": "s:17ClickmeliveiOSSDK11PIPPositionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ClickmeliveiOSSDK.PIPPosition.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PIPPosition",
+                        "printedName": "ClickmeliveiOSSDK.PIPPosition",
+                        "usr": "s:17ClickmeliveiOSSDK11PIPPositionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17ClickmeliveiOSSDK11PIPPositionO10middleLeftyA2CmF",
+            "mangledName": "$s17ClickmeliveiOSSDK11PIPPositionO10middleLeftyA2CmF",
+            "moduleName": "ClickmeliveiOSSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "bottomLeft",
+            "printedName": "bottomLeft",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ClickmeliveiOSSDK.PIPPosition.Type) -> ClickmeliveiOSSDK.PIPPosition",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PIPPosition",
+                    "printedName": "ClickmeliveiOSSDK.PIPPosition",
+                    "usr": "s:17ClickmeliveiOSSDK11PIPPositionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ClickmeliveiOSSDK.PIPPosition.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PIPPosition",
+                        "printedName": "ClickmeliveiOSSDK.PIPPosition",
+                        "usr": "s:17ClickmeliveiOSSDK11PIPPositionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17ClickmeliveiOSSDK11PIPPositionO10bottomLeftyA2CmF",
+            "mangledName": "$s17ClickmeliveiOSSDK11PIPPositionO10bottomLeftyA2CmF",
+            "moduleName": "ClickmeliveiOSSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "topRight",
+            "printedName": "topRight",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ClickmeliveiOSSDK.PIPPosition.Type) -> ClickmeliveiOSSDK.PIPPosition",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PIPPosition",
+                    "printedName": "ClickmeliveiOSSDK.PIPPosition",
+                    "usr": "s:17ClickmeliveiOSSDK11PIPPositionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ClickmeliveiOSSDK.PIPPosition.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PIPPosition",
+                        "printedName": "ClickmeliveiOSSDK.PIPPosition",
+                        "usr": "s:17ClickmeliveiOSSDK11PIPPositionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17ClickmeliveiOSSDK11PIPPositionO8topRightyA2CmF",
+            "mangledName": "$s17ClickmeliveiOSSDK11PIPPositionO8topRightyA2CmF",
+            "moduleName": "ClickmeliveiOSSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "middleRight",
+            "printedName": "middleRight",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ClickmeliveiOSSDK.PIPPosition.Type) -> ClickmeliveiOSSDK.PIPPosition",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PIPPosition",
+                    "printedName": "ClickmeliveiOSSDK.PIPPosition",
+                    "usr": "s:17ClickmeliveiOSSDK11PIPPositionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ClickmeliveiOSSDK.PIPPosition.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PIPPosition",
+                        "printedName": "ClickmeliveiOSSDK.PIPPosition",
+                        "usr": "s:17ClickmeliveiOSSDK11PIPPositionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17ClickmeliveiOSSDK11PIPPositionO11middleRightyA2CmF",
+            "mangledName": "$s17ClickmeliveiOSSDK11PIPPositionO11middleRightyA2CmF",
+            "moduleName": "ClickmeliveiOSSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "bottomRight",
+            "printedName": "bottomRight",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ClickmeliveiOSSDK.PIPPosition.Type) -> ClickmeliveiOSSDK.PIPPosition",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PIPPosition",
+                    "printedName": "ClickmeliveiOSSDK.PIPPosition",
+                    "usr": "s:17ClickmeliveiOSSDK11PIPPositionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ClickmeliveiOSSDK.PIPPosition.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PIPPosition",
+                        "printedName": "ClickmeliveiOSSDK.PIPPosition",
+                        "usr": "s:17ClickmeliveiOSSDK11PIPPositionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17ClickmeliveiOSSDK11PIPPositionO11bottomRightyA2CmF",
+            "mangledName": "$s17ClickmeliveiOSSDK11PIPPositionO11bottomRightyA2CmF",
+            "moduleName": "ClickmeliveiOSSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PIPPosition",
+                "printedName": "ClickmeliveiOSSDK.PIPPosition",
+                "usr": "s:17ClickmeliveiOSSDK11PIPPositionO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PIPPosition",
+                "printedName": "ClickmeliveiOSSDK.PIPPosition",
+                "usr": "s:17ClickmeliveiOSSDK11PIPPositionO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17ClickmeliveiOSSDK11PIPPositionO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s17ClickmeliveiOSSDK11PIPPositionO2eeoiySbAC_ACtFZ",
+            "moduleName": "ClickmeliveiOSSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ClickmeliveiOSSDK11PIPPositionO9hashValueSivp",
+            "mangledName": "$s17ClickmeliveiOSSDK11PIPPositionO9hashValueSivp",
+            "moduleName": "ClickmeliveiOSSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ClickmeliveiOSSDK11PIPPositionO9hashValueSivg",
+                "mangledName": "$s17ClickmeliveiOSSDK11PIPPositionO9hashValueSivg",
+                "moduleName": "ClickmeliveiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17ClickmeliveiOSSDK11PIPPositionO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s17ClickmeliveiOSSDK11PIPPositionO4hash4intoys6HasherVz_tF",
+            "moduleName": "ClickmeliveiOSSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17ClickmeliveiOSSDK11PIPPositionO",
+        "mangledName": "$s17ClickmeliveiOSSDK11PIPPositionO",
+        "moduleName": "ClickmeliveiOSSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "_PIPState",
+        "printedName": "_PIPState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "none",
+            "printedName": "none",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ClickmeliveiOSSDK._PIPState.Type) -> ClickmeliveiOSSDK._PIPState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_PIPState",
+                    "printedName": "ClickmeliveiOSSDK._PIPState",
+                    "usr": "s:17ClickmeliveiOSSDK9_PIPStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ClickmeliveiOSSDK._PIPState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_PIPState",
+                        "printedName": "ClickmeliveiOSSDK._PIPState",
+                        "usr": "s:17ClickmeliveiOSSDK9_PIPStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17ClickmeliveiOSSDK9_PIPStateO4noneyA2CmF",
+            "mangledName": "$s17ClickmeliveiOSSDK9_PIPStateO4noneyA2CmF",
+            "moduleName": "ClickmeliveiOSSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "pip",
+            "printedName": "pip",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ClickmeliveiOSSDK._PIPState.Type) -> ClickmeliveiOSSDK._PIPState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_PIPState",
+                    "printedName": "ClickmeliveiOSSDK._PIPState",
+                    "usr": "s:17ClickmeliveiOSSDK9_PIPStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ClickmeliveiOSSDK._PIPState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_PIPState",
+                        "printedName": "ClickmeliveiOSSDK._PIPState",
+                        "usr": "s:17ClickmeliveiOSSDK9_PIPStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17ClickmeliveiOSSDK9_PIPStateO3pipyA2CmF",
+            "mangledName": "$s17ClickmeliveiOSSDK9_PIPStateO3pipyA2CmF",
+            "moduleName": "ClickmeliveiOSSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "full",
+            "printedName": "full",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ClickmeliveiOSSDK._PIPState.Type) -> ClickmeliveiOSSDK._PIPState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_PIPState",
+                    "printedName": "ClickmeliveiOSSDK._PIPState",
+                    "usr": "s:17ClickmeliveiOSSDK9_PIPStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ClickmeliveiOSSDK._PIPState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_PIPState",
+                        "printedName": "ClickmeliveiOSSDK._PIPState",
+                        "usr": "s:17ClickmeliveiOSSDK9_PIPStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17ClickmeliveiOSSDK9_PIPStateO4fullyA2CmF",
+            "mangledName": "$s17ClickmeliveiOSSDK9_PIPStateO4fullyA2CmF",
+            "moduleName": "ClickmeliveiOSSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "exit",
+            "printedName": "exit",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ClickmeliveiOSSDK._PIPState.Type) -> ClickmeliveiOSSDK._PIPState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_PIPState",
+                    "printedName": "ClickmeliveiOSSDK._PIPState",
+                    "usr": "s:17ClickmeliveiOSSDK9_PIPStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ClickmeliveiOSSDK._PIPState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_PIPState",
+                        "printedName": "ClickmeliveiOSSDK._PIPState",
+                        "usr": "s:17ClickmeliveiOSSDK9_PIPStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17ClickmeliveiOSSDK9_PIPStateO4exityA2CmF",
+            "mangledName": "$s17ClickmeliveiOSSDK9_PIPStateO4exityA2CmF",
+            "moduleName": "ClickmeliveiOSSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "_PIPState",
+                "printedName": "ClickmeliveiOSSDK._PIPState",
+                "usr": "s:17ClickmeliveiOSSDK9_PIPStateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "_PIPState",
+                "printedName": "ClickmeliveiOSSDK._PIPState",
+                "usr": "s:17ClickmeliveiOSSDK9_PIPStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17ClickmeliveiOSSDK9_PIPStateO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s17ClickmeliveiOSSDK9_PIPStateO2eeoiySbAC_ACtFZ",
+            "moduleName": "ClickmeliveiOSSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ClickmeliveiOSSDK9_PIPStateO9hashValueSivp",
+            "mangledName": "$s17ClickmeliveiOSSDK9_PIPStateO9hashValueSivp",
+            "moduleName": "ClickmeliveiOSSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ClickmeliveiOSSDK9_PIPStateO9hashValueSivg",
+                "mangledName": "$s17ClickmeliveiOSSDK9_PIPStateO9hashValueSivg",
+                "moduleName": "ClickmeliveiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17ClickmeliveiOSSDK9_PIPStateO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s17ClickmeliveiOSSDK9_PIPStateO4hash4intoys6HasherVz_tF",
+            "moduleName": "ClickmeliveiOSSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17ClickmeliveiOSSDK9_PIPStateO",
+        "mangledName": "$s17ClickmeliveiOSSDK9_PIPStateO",
+        "moduleName": "ClickmeliveiOSSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -24702,6 +25556,23 @@
           "Final",
           "AccessControl"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ClickmeliveiOSSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ClickmeliveiOSSDK"
       },
       {
         "kind": "Import",
@@ -31895,6 +32766,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ClickmeliveiOSSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -35055,13 +35936,6 @@
         "moduleName": "ClickmeliveiOSSDK"
       },
       {
-        "kind": "Import",
-        "name": "PIPKit",
-        "printedName": "PIPKit",
-        "declKind": "Import",
-        "moduleName": "ClickmeliveiOSSDK"
-      },
-      {
         "kind": "TypeDecl",
         "name": "CustomTableDataSource",
         "printedName": "CustomTableDataSource",
@@ -36513,13 +37387,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "PIPState",
-                "printedName": "PIPKit.PIPState",
-                "usr": "s:6PIPKit8PIPStateO"
+                "printedName": "ClickmeliveiOSSDK.PIPState",
+                "usr": "s:17ClickmeliveiOSSDK8PIPStateO"
               }
             ],
             "declKind": "Var",
-            "usr": "s:17ClickmeliveiOSSDK18FeedViewControllerC12initialState6PIPKit8PIPStateOvp",
-            "mangledName": "$s17ClickmeliveiOSSDK18FeedViewControllerC12initialState6PIPKit8PIPStateOvp",
+            "usr": "s:17ClickmeliveiOSSDK18FeedViewControllerC12initialStateAA8PIPStateOvp",
+            "mangledName": "$s17ClickmeliveiOSSDK18FeedViewControllerC12initialStateAA8PIPStateOvp",
             "moduleName": "ClickmeliveiOSSDK",
             "declAttributes": [
               "Custom",
@@ -36536,13 +37410,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "PIPState",
-                    "printedName": "PIPKit.PIPState",
-                    "usr": "s:6PIPKit8PIPStateO"
+                    "printedName": "ClickmeliveiOSSDK.PIPState",
+                    "usr": "s:17ClickmeliveiOSSDK8PIPStateO"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17ClickmeliveiOSSDK18FeedViewControllerC12initialState6PIPKit8PIPStateOvg",
-                "mangledName": "$s17ClickmeliveiOSSDK18FeedViewControllerC12initialState6PIPKit8PIPStateOvg",
+                "usr": "s:17ClickmeliveiOSSDK18FeedViewControllerC12initialStateAA8PIPStateOvg",
+                "mangledName": "$s17ClickmeliveiOSSDK18FeedViewControllerC12initialStateAA8PIPStateOvg",
                 "moduleName": "ClickmeliveiOSSDK",
                 "declAttributes": [
                   "Final"
@@ -36560,13 +37434,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "PIPPosition",
-                "printedName": "PIPKit.PIPPosition",
-                "usr": "s:6PIPKit11PIPPositionO"
+                "printedName": "ClickmeliveiOSSDK.PIPPosition",
+                "usr": "s:17ClickmeliveiOSSDK11PIPPositionO"
               }
             ],
             "declKind": "Var",
-            "usr": "s:17ClickmeliveiOSSDK18FeedViewControllerC15initialPosition6PIPKit11PIPPositionOvp",
-            "mangledName": "$s17ClickmeliveiOSSDK18FeedViewControllerC15initialPosition6PIPKit11PIPPositionOvp",
+            "usr": "s:17ClickmeliveiOSSDK18FeedViewControllerC15initialPositionAA11PIPPositionOvp",
+            "mangledName": "$s17ClickmeliveiOSSDK18FeedViewControllerC15initialPositionAA11PIPPositionOvp",
             "moduleName": "ClickmeliveiOSSDK",
             "declAttributes": [
               "Custom",
@@ -36583,13 +37457,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "PIPPosition",
-                    "printedName": "PIPKit.PIPPosition",
-                    "usr": "s:6PIPKit11PIPPositionO"
+                    "printedName": "ClickmeliveiOSSDK.PIPPosition",
+                    "usr": "s:17ClickmeliveiOSSDK11PIPPositionO"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17ClickmeliveiOSSDK18FeedViewControllerC15initialPosition6PIPKit11PIPPositionOvg",
-                "mangledName": "$s17ClickmeliveiOSSDK18FeedViewControllerC15initialPosition6PIPKit11PIPPositionOvg",
+                "usr": "s:17ClickmeliveiOSSDK18FeedViewControllerC15initialPositionAA11PIPPositionOvg",
+                "mangledName": "$s17ClickmeliveiOSSDK18FeedViewControllerC15initialPositionAA11PIPPositionOvg",
                 "moduleName": "ClickmeliveiOSSDK",
                 "declAttributes": [
                   "Final"
@@ -36654,21 +37528,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "PIPKit.PIPCorner?",
+                "printedName": "ClickmeliveiOSSDK.PIPCorner?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "PIPCorner",
-                    "printedName": "PIPKit.PIPCorner",
-                    "usr": "s:6PIPKit9PIPCornerV"
+                    "printedName": "ClickmeliveiOSSDK.PIPCorner",
+                    "usr": "s:17ClickmeliveiOSSDK9PIPCornerV"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:17ClickmeliveiOSSDK18FeedViewControllerC9pipCorner6PIPKit9PIPCornerVSgvp",
-            "mangledName": "$s17ClickmeliveiOSSDK18FeedViewControllerC9pipCorner6PIPKit9PIPCornerVSgvp",
+            "usr": "s:17ClickmeliveiOSSDK18FeedViewControllerC9pipCornerAA9PIPCornerVSgvp",
+            "mangledName": "$s17ClickmeliveiOSSDK18FeedViewControllerC9pipCornerAA9PIPCornerVSgvp",
             "moduleName": "ClickmeliveiOSSDK",
             "declAttributes": [
               "Custom",
@@ -36685,21 +37559,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "PIPKit.PIPCorner?",
+                    "printedName": "ClickmeliveiOSSDK.PIPCorner?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "PIPCorner",
-                        "printedName": "PIPKit.PIPCorner",
-                        "usr": "s:6PIPKit9PIPCornerV"
+                        "printedName": "ClickmeliveiOSSDK.PIPCorner",
+                        "usr": "s:17ClickmeliveiOSSDK9PIPCornerV"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17ClickmeliveiOSSDK18FeedViewControllerC9pipCorner6PIPKit9PIPCornerVSgvg",
-                "mangledName": "$s17ClickmeliveiOSSDK18FeedViewControllerC9pipCorner6PIPKit9PIPCornerVSgvg",
+                "usr": "s:17ClickmeliveiOSSDK18FeedViewControllerC9pipCornerAA9PIPCornerVSgvg",
+                "mangledName": "$s17ClickmeliveiOSSDK18FeedViewControllerC9pipCornerAA9PIPCornerVSgvg",
                 "moduleName": "ClickmeliveiOSSDK",
                 "declAttributes": [
                   "Final"
@@ -37011,13 +37885,6 @@
             "printedName": "UITraitChangeObservable",
             "usr": "s:5UIKit23UITraitChangeObservableP",
             "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "PIPUsable",
-            "printedName": "PIPUsable",
-            "usr": "s:6PIPKit9PIPUsableP",
-            "mangledName": "$s6PIPKit9PIPUsableP"
           },
           {
             "kind": "Conformance",
@@ -67358,6 +68225,23 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ClickmeliveiOSSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ClickmeliveiOSSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "ErrorMapper",
         "printedName": "ErrorMapper",
@@ -75443,273 +76327,273 @@
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "StringLiteral",
-      "offset": 256,
+      "offset": 242,
       "length": 24,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "StringLiteral",
-      "offset": 279,
+      "offset": 265,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 322,
+      "offset": 308,
       "length": 3,
       "value": "243"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 373,
+      "offset": 359,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 420,
+      "offset": 406,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 461,
+      "offset": 447,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "StringLiteral",
-      "offset": 1131,
+      "offset": 1117,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1468,
+      "offset": 1454,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1515,
+      "offset": 1501,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2477,
+      "offset": 2463,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2545,
+      "offset": 2531,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "StringLiteral",
-      "offset": 2581,
+      "offset": 2567,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3531,
+      "offset": 3517,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3594,
+      "offset": 3580,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3744,
+      "offset": 3730,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3824,
+      "offset": 3810,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3957,
+      "offset": 3943,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "StringLiteral",
-      "offset": 4170,
+      "offset": 4156,
       "length": 12,
       "value": "\"(\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "StringLiteral",
-      "offset": 4180,
+      "offset": 4166,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "StringLiteral",
-      "offset": 4246,
+      "offset": 4232,
       "length": 12,
       "value": "\"(\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "StringLiteral",
-      "offset": 4256,
+      "offset": 4242,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "StringLiteral",
-      "offset": 4336,
+      "offset": 4322,
       "length": 10,
       "value": "\"img_back\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4623,
+      "offset": 4609,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "StringLiteral",
-      "offset": 4883,
+      "offset": 4869,
       "length": 11,
       "value": "\"icon_back\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "StringLiteral",
-      "offset": 4968,
+      "offset": 4954,
       "length": 27,
       "value": "\"img_product_detail_basket\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "StringLiteral",
-      "offset": 5251,
+      "offset": 5237,
       "length": 13,
       "value": "\"icon_basket\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 5401,
+      "offset": 5387,
       "length": 3,
       "value": "388"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 5644,
+      "offset": 5630,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 5744,
+      "offset": 5730,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 6153,
+      "offset": 6139,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 6562,
+      "offset": 6548,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 6572,
+      "offset": 6558,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 6583,
+      "offset": 6569,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 6593,
+      "offset": 6579,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 6647,
+      "offset": 6633,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "StringLiteral",
-      "offset": 140,
+      "offset": 126,
       "length": 12,
       "value": "\"ClickmeliveiOSSDK.ListEventsVC\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 7800,
+      "offset": 7786,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 7870,
+      "offset": 7856,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/List Events UI\/ListEventsVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 8240,
+      "offset": 8226,
       "length": 1,
       "value": "4"
     },
@@ -76010,742 +76894,742 @@
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "BooleanLiteral",
-      "offset": 1713,
+      "offset": 1699,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 3574,
+      "offset": 3560,
       "length": 25,
       "value": "\"CMLSDK: Starting SDK...\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "BooleanLiteral",
-      "offset": 3769,
+      "offset": 3755,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 4141,
+      "offset": 4127,
       "length": 35,
       "value": "\"CMLSDK: PIP mode is not available\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "BooleanLiteral",
-      "offset": 4339,
+      "offset": 4325,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "BooleanLiteral",
-      "offset": 4433,
+      "offset": 4419,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 5174,
+      "offset": 5160,
       "length": 44,
       "value": "\"CMLSDK: Can't access root view controller!\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "IntegerLiteral",
-      "offset": 5286,
+      "offset": 5272,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "IntegerLiteral",
-      "offset": 5726,
+      "offset": 5712,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "IntegerLiteral",
-      "offset": 5783,
+      "offset": 5769,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "IntegerLiteral",
-      "offset": 6216,
+      "offset": 6202,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "IntegerLiteral",
-      "offset": 6283,
+      "offset": 6269,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "IntegerLiteral",
-      "offset": 6350,
+      "offset": 6336,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 6414,
+      "offset": 6400,
       "length": 37,
       "value": "\"CMLSDK: Invalid eventType is given!\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 6637,
+      "offset": 6623,
       "length": 35,
       "value": "\"CML must be configured before use\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 7047,
+      "offset": 7033,
       "length": 35,
       "value": "\"CML must be configured before use\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "BooleanLiteral",
-      "offset": 7908,
+      "offset": 7894,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "BooleanLiteral",
-      "offset": 8174,
+      "offset": 8160,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 8267,
+      "offset": 8253,
       "length": 35,
       "value": "\"CML must be configured before use\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "BooleanLiteral",
-      "offset": 12382,
+      "offset": 12368,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "BooleanLiteral",
-      "offset": 12661,
+      "offset": 12647,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "BooleanLiteral",
-      "offset": 13128,
+      "offset": 13114,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 13365,
+      "offset": 13351,
       "length": 68,
       "value": "\"onLinkGenerationClick, eventId: \""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 13408,
+      "offset": 13394,
       "length": 1,
       "value": "\", eventType:\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 13432,
+      "offset": 13418,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 13633,
+      "offset": 13619,
       "length": 103,
       "value": "\"onMerchantClick, merchantId: \""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 13677,
+      "offset": 13663,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 13681,
+      "offset": 13667,
       "length": 1,
       "value": "\", fromEventId: \""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 13706,
+      "offset": 13692,
       "length": 1,
       "value": "\", fromEventType: \""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 13735,
+      "offset": 13721,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 13906,
+      "offset": 13892,
       "length": 16,
       "value": "\"onBasketTapped\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 14487,
+      "offset": 14473,
       "length": 18,
       "value": "\"Event.View.Start\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 14670,
+      "offset": 14656,
       "length": 18,
       "value": "\"Event.View.Pause\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 14851,
+      "offset": 14837,
       "length": 18,
       "value": "\"Event.View.Start\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 15036,
+      "offset": 15022,
       "length": 18,
       "value": "\"Event.View.Pause\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "BooleanLiteral",
-      "offset": 15508,
+      "offset": 15494,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 16602,
+      "offset": 16588,
       "length": 35,
       "value": "\"CML must be configured before use\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "BooleanLiteral",
-      "offset": 19006,
+      "offset": 18992,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 19488,
+      "offset": 19474,
       "length": 51,
       "value": "\"CMLSDK: Redirecting to deeplink event... (LiveVC)\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "IntegerLiteral",
-      "offset": 19876,
+      "offset": 19862,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 20028,
+      "offset": 20014,
       "length": 42,
       "value": "\"CMLSDK: No deeplink event found (LiveVC)\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "IntegerLiteral",
-      "offset": 20123,
+      "offset": 20109,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "BooleanLiteral",
-      "offset": 20344,
+      "offset": 20330,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 20366,
+      "offset": 20352,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 20450,
+      "offset": 20436,
       "length": 35,
       "value": "\"CML must be configured before use\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "Array",
-      "offset": 20683,
+      "offset": 20669,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "BooleanLiteral",
-      "offset": 20888,
+      "offset": 20874,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 20910,
+      "offset": 20896,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 20998,
+      "offset": 20984,
       "length": 35,
       "value": "\"CML must be configured before use\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "Array",
-      "offset": 21249,
+      "offset": 21235,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 21482,
+      "offset": 21468,
       "length": 54,
       "value": "\"CMLSDK: Redirecting to deeplink event... (Videos VC)\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 21697,
+      "offset": 21683,
       "length": 45,
       "value": "\"CMLSDK: No deeplink event found (Videos VC)\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "IntegerLiteral",
-      "offset": 21943,
+      "offset": 21929,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 22091,
+      "offset": 22077,
       "length": 45,
       "value": "\"CMLSDK: No deeplink event found (Videos VC)\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 22622,
+      "offset": 22608,
       "length": 35,
       "value": "\"CML must be configured before use\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 23844,
+      "offset": 23830,
       "length": 188,
       "value": "\"onProductAddedToBasket productId: \""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 23910,
+      "offset": 23896,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 23914,
+      "offset": 23900,
       "length": 1,
       "value": "\", sellerId: \""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 23948,
+      "offset": 23934,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 23952,
+      "offset": 23938,
       "length": 1,
       "value": "\", fromEventId: \""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "IntegerLiteral",
-      "offset": 23982,
+      "offset": 23968,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 23985,
+      "offset": 23971,
       "length": 1,
       "value": "\", fromEventType: \""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "IntegerLiteral",
-      "offset": 24028,
+      "offset": 24014,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 24031,
+      "offset": 24017,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "IntegerLiteral",
-      "offset": 24136,
+      "offset": 24122,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "IntegerLiteral",
-      "offset": 24164,
+      "offset": 24150,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "BooleanLiteral",
-      "offset": 24297,
+      "offset": 24283,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "BooleanLiteral",
-      "offset": 24374,
+      "offset": 24360,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 24861,
+      "offset": 24847,
       "length": 181,
       "value": "\"onProductClick, productId: \""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 24920,
+      "offset": 24906,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 24924,
+      "offset": 24910,
       "length": 1,
       "value": "\", sellerId: \""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 24958,
+      "offset": 24944,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 24962,
+      "offset": 24948,
       "length": 1,
       "value": "\", fromEventId: \""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "IntegerLiteral",
-      "offset": 24992,
+      "offset": 24978,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 24995,
+      "offset": 24981,
       "length": 1,
       "value": "\", fromEventType: \""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "IntegerLiteral",
-      "offset": 25038,
+      "offset": 25024,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 25041,
+      "offset": 25027,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "IntegerLiteral",
-      "offset": 25137,
+      "offset": 25123,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "IntegerLiteral",
-      "offset": 25165,
+      "offset": 25151,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 25724,
+      "offset": 25710,
       "length": 35,
       "value": "\"CML must be configured before use\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "BooleanLiteral",
-      "offset": 26494,
+      "offset": 26480,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "IntegerLiteral",
-      "offset": 26665,
+      "offset": 26651,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "IntegerLiteral",
-      "offset": 26710,
+      "offset": 26696,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "IntegerLiteral",
-      "offset": 26777,
+      "offset": 26763,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "Array",
-      "offset": 27048,
+      "offset": 27034,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 27147,
+      "offset": 27133,
       "length": 10,
       "value": "\"Rastgele\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 27165,
+      "offset": 27151,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "IntegerLiteral",
-      "offset": 27176,
+      "offset": 27162,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 27251,
+      "offset": 27237,
       "length": 21,
       "value": "\"En Çok İzlenenler\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 27280,
+      "offset": 27266,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "IntegerLiteral",
-      "offset": 27291,
+      "offset": 27277,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 27358,
+      "offset": 27344,
       "length": 12,
       "value": "\"En Yeniler\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 27378,
+      "offset": 27364,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "IntegerLiteral",
-      "offset": 27389,
+      "offset": 27375,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "BooleanLiteral",
-      "offset": 27693,
+      "offset": 27679,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "IntegerLiteral",
-      "offset": 27900,
+      "offset": 27886,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "BooleanLiteral",
-      "offset": 28195,
+      "offset": 28181,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 28317,
+      "offset": 28303,
       "length": 4,
       "value": "\", \""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 28326,
+      "offset": 28312,
       "length": 15,
       "value": "\"Tüm Videolar\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 28452,
+      "offset": 28438,
       "length": 15,
       "value": "\"Tüm Videolar\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "IntegerLiteral",
-      "offset": 28505,
+      "offset": 28491,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "BooleanLiteral",
-      "offset": 28549,
+      "offset": 28535,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "StringLiteral",
-      "offset": 28775,
+      "offset": 28761,
       "length": 35,
       "value": "\"CML must be configured before use\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "IntegerLiteral",
-      "offset": 31440,
+      "offset": 31426,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "IntegerLiteral",
-      "offset": 31451,
+      "offset": 31437,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/Injectors\/CML.swift",
       "kind": "BooleanLiteral",
-      "offset": 32697,
+      "offset": 32683,
       "length": 5,
       "value": "false"
     },
@@ -77252,6 +78136,146 @@
       "offset": 3615,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPKitEventDispatcher.swift",
+      "kind": "FloatLiteral",
+      "offset": 1331,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPKitEventDispatcher.swift",
+      "kind": "FloatLiteral",
+      "offset": 1545,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPKitEventDispatcher.swift",
+      "kind": "FloatLiteral",
+      "offset": 3485,
+      "length": 4,
+      "value": "0.15"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPKitEventDispatcher.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4255,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPKitEventDispatcher.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4394,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPKitEventDispatcher.swift",
+      "kind": "FloatLiteral",
+      "offset": 5351,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPKitEventDispatcher.swift",
+      "kind": "FloatLiteral",
+      "offset": 5401,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPKitEventDispatcher.swift",
+      "kind": "FloatLiteral",
+      "offset": 5433,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPKitEventDispatcher.swift",
+      "kind": "FloatLiteral",
+      "offset": 6018,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPKitEventDispatcher.swift",
+      "kind": "FloatLiteral",
+      "offset": 6068,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPKitEventDispatcher.swift",
+      "kind": "FloatLiteral",
+      "offset": 6100,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPKitEventDispatcher.swift",
+      "kind": "FloatLiteral",
+      "offset": 6924,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPKitEventDispatcher.swift",
+      "kind": "FloatLiteral",
+      "offset": 7075,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPKitEventDispatcher.swift",
+      "kind": "FloatLiteral",
+      "offset": 7239,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPKitEventDispatcher.swift",
+      "kind": "FloatLiteral",
+      "offset": 7347,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPKitEventDispatcher.swift",
+      "kind": "FloatLiteral",
+      "offset": 8534,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPKitEventDispatcher.swift",
+      "kind": "FloatLiteral",
+      "offset": 8693,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPKitEventDispatcher.swift",
+      "kind": "FloatLiteral",
+      "offset": 8782,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPKitEventDispatcher.swift",
+      "kind": "FloatLiteral",
+      "offset": 8947,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPKitEventDispatcher.swift",
+      "kind": "FloatLiteral",
+      "offset": 9113,
+      "length": 4,
+      "value": "0.15"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCore\/Shared\/API\/DTOs\/EventDTO.swift",
@@ -84583,6 +85607,34 @@
       "value": "\"Title for layout detail\""
     },
     {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1616,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPKit.swift",
+      "kind": "FloatLiteral",
+      "offset": 2423,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPKit.swift",
+      "kind": "FloatLiteral",
+      "offset": 2519,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPKit.swift",
+      "kind": "FloatLiteral",
+      "offset": 2591,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Extensions\/UIViewControllerExtensions.swift",
       "kind": "BooleanLiteral",
       "offset": 251,
@@ -86653,6 +87705,13 @@
       "offset": 993,
       "length": 1,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/Extensions\/UIViewController+PIPKitExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1483,
+      "length": 20,
+      "value": "\"pipEventDispatcher\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Snackbar UI\/SnackbarView.swift",
@@ -89506,273 +90565,273 @@
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "StringLiteral",
-      "offset": 171,
+      "offset": 156,
       "length": 21,
       "value": "\"ClickmeliveiOSSDK.CustomTableDataSource\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1439,
+      "offset": 1424,
       "length": 16,
       "value": "\"ClickmeliveiOSSDK.CustomDataSource\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2648,
+      "offset": 2633,
       "length": 18,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2665,
+      "offset": 2650,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2711,
+      "offset": 2696,
       "length": 3,
       "value": "150"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3523,
+      "offset": 3508,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3565,
+      "offset": 3550,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4180,
+      "offset": 4165,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4549,
+      "offset": 4534,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5118,
+      "offset": 5103,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5240,
+      "offset": 5225,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5380,
+      "offset": 5365,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6041,
+      "offset": 6026,
       "length": 27,
       "value": "\"deinit FeedViewController\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6658,
+      "offset": 6643,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2525,
+      "offset": 2510,
       "length": 18,
       "value": "\"ClickmeliveiOSSDK.FeedViewController\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8856,
+      "offset": 8841,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9162,
+      "offset": 9147,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9650,
+      "offset": 9635,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9902,
+      "offset": 9887,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10312,
+      "offset": 10297,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10642,
+      "offset": 10627,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10780,
+      "offset": 10765,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12283,
+      "offset": 12268,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12470,
+      "offset": 12455,
       "length": 3,
       "value": "310"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12597,
+      "offset": 12582,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 18019,
+      "offset": 18004,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 18077,
+      "offset": 18062,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 18089,
+      "offset": 18074,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19410,
+      "offset": 19395,
       "length": 3,
       "value": "147"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19423,
+      "offset": 19408,
       "length": 3,
       "value": "252"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19495,
+      "offset": 19480,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19593,
+      "offset": 19578,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19934,
+      "offset": 19919,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20312,
+      "offset": 20297,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20473,
+      "offset": 20458,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20823,
+      "offset": 20808,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20849,
+      "offset": 20834,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20933,
+      "offset": 20918,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Features\/Feed UI\/Controllers\/FeedViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21150,
+      "offset": 21135,
       "length": 1,
       "value": "0"
     },
@@ -101507,6 +102566,146 @@
       "offset": 1170,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPUsable.swift",
+      "kind": "BooleanLiteral",
+      "offset": 686,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPUsable.swift",
+      "kind": "IntegerLiteral",
+      "offset": 756,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPUsable.swift",
+      "kind": "IntegerLiteral",
+      "offset": 766,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPUsable.swift",
+      "kind": "IntegerLiteral",
+      "offset": 778,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPUsable.swift",
+      "kind": "IntegerLiteral",
+      "offset": 789,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPUsable.swift",
+      "kind": "FloatLiteral",
+      "offset": 842,
+      "length": 5,
+      "value": "200.0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPUsable.swift",
+      "kind": "FloatLiteral",
+      "offset": 858,
+      "length": 5,
+      "value": "200.0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPUsable.swift",
+      "kind": "FloatLiteral",
+      "offset": 866,
+      "length": 3,
+      "value": "9.0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPUsable.swift",
+      "kind": "FloatLiteral",
+      "offset": 873,
+      "length": 4,
+      "value": "16.0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPUsable.swift",
+      "kind": "FloatLiteral",
+      "offset": 954,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPUsable.swift",
+      "kind": "IntegerLiteral",
+      "offset": 981,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPUsable.swift",
+      "kind": "IntegerLiteral",
+      "offset": 992,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPUsable.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1004,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPUsable.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1116,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPUsable.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1193,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPUsable.swift",
+      "kind": "FloatLiteral",
+      "offset": 1861,
+      "length": 4,
+      "value": "0.24"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPUsable.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1874,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPUsable.swift",
+      "kind": "FloatLiteral",
+      "offset": 1965,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPUsable.swift",
+      "kind": "FloatLiteral",
+      "offset": 2034,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/PIP Kit\/PIPUsable.swift",
+      "kind": "FloatLiteral",
+      "offset": 2042,
+      "length": 3,
+      "value": "0.1"
     },
     {
       "filePath": "\/Users\/sevgican\/harpeon\/GitHub\/ClickmeliveiOSSDK\/ClickmeliveiOSSDK\/ClickmeliveCoreiOS\/Shared UI\/Views\/View\/PazaramaRadioButton.swift",

@@ -1031,6 +1031,8 @@ SWIFT_CLASS("_TtC17ClickmeliveiOSSDK24StreamInfoViewController")
 
 
 
+
+
 SWIFT_CLASS("_TtC17ClickmeliveiOSSDK15ViewerCountView")
 @interface ViewerCountView : UIView
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
